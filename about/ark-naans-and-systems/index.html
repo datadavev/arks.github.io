@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poly:ital@0;1&family=Work+Sans:ital@0;1&display=swap"
+        rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+        crossorigin="anonymous">
+  <style>
+      :host,:root{--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Solid";--fa-font-regular:normal 400 1em/1 "Font Awesome 6 Regular";--fa-font-light:normal 300 1em/1 "Font Awesome 6 Light";--fa-font-thin:normal 100 1em/1 "Font Awesome 6 Thin";--fa-font-duotone:normal 900 1em/1 "Font Awesome 6 Duotone";--fa-font-sharp-solid:normal 900 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-regular:normal 400 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-light:normal 300 1em/1 "Font Awesome 6 Sharp";--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"}svg:not(:host).svg-inline--fa,svg:not(:root).svg-inline--fa{overflow:visible;box-sizing:content-box}.svg-inline--fa{display:var(--fa-display,inline-block);height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-2xs{vertical-align:.1em}.svg-inline--fa.fa-xs{vertical-align:0}.svg-inline--fa.fa-sm{vertical-align:-.07143em}.svg-inline--fa.fa-lg{vertical-align:-.2em}.svg-inline--fa.fa-xl{vertical-align:-.25em}.svg-inline--fa.fa-2xl{vertical-align:-.3125em}.svg-inline--fa.fa-pull-left{margin-right:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-pull-right{margin-left:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-li{width:var(--fa-li-width,2em);top:.25em}.svg-inline--fa.fa-fw{width:var(--fa-fw-width,1.25em)}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:var(--fa-counter-background-color,#ff253a);border-radius:var(--fa-counter-border-radius,1em);box-sizing:border-box;color:var(--fa-inverse,#fff);line-height:var(--fa-counter-line-height,1);max-width:var(--fa-counter-max-width,5em);min-width:var(--fa-counter-min-width,1.5em);overflow:hidden;padding:var(--fa-counter-padding,.25em .5em);right:var(--fa-right,0);text-overflow:ellipsis;top:var(--fa-top,0);-webkit-transform:scale(var(--fa-counter-scale,.25));transform:scale(var(--fa-counter-scale,.25));-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:var(--fa-bottom,0);right:var(--fa-right,0);top:auto;-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:var(--fa-bottom,0);left:var(--fa-left,0);right:auto;top:auto;-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{top:var(--fa-top,0);right:var(--fa-right,0);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:var(--fa-left,0);right:auto;top:var(--fa-top,0);-webkit-transform:scale(var(--fa-layers-scale,.25));transform:scale(var(--fa-layers-scale,.25));-webkit-transform-origin:top left;transform-origin:top left}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-2xs{font-size:.625em;line-height:.1em;vertical-align:.225em}.fa-xs{font-size:.75em;line-height:.08333em;vertical-align:.125em}.fa-sm{font-size:.875em;line-height:.07143em;vertical-align:.05357em}.fa-lg{font-size:1.25em;line-height:.05em;vertical-align:-.075em}.fa-xl{font-size:1.5em;line-height:.04167em;vertical-align:-.125em}.fa-2xl{font-size:2em;line-height:.03125em;vertical-align:-.1875em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:var(--fa-li-margin,2.5em);padding-left:0}.fa-ul>li{position:relative}.fa-li{left:calc(var(--fa-li-width, 2em)*-1);position:absolute;text-align:center;width:var(--fa-li-width,2em);line-height:inherit}.fa-border{border-radius:var(--fa-border-radius,.1em);border:var(--fa-border-width,.08em) var(--fa-border-style,solid) var(--fa-border-color,#eee);padding:var(--fa-border-padding,.2em .25em .15em)}.fa-pull-left{float:left;margin-right:var(--fa-pull-margin,.3em)}.fa-pull-right{float:right;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{-webkit-animation-name:fa-beat;animation-name:fa-beat;-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,ease-in-out);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-bounce{-webkit-animation-name:fa-bounce;animation-name:fa-bounce;-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1))}.fa-fade{-webkit-animation-name:fa-fade;animation-name:fa-fade;-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-beat-fade,.fa-fade{-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s)}.fa-beat-fade{-webkit-animation-name:fa-beat-fade;animation-name:fa-beat-fade;-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-flip{-webkit-animation-name:fa-flip;animation-name:fa-flip;-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,ease-in-out);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-shake{-webkit-animation-name:fa-shake;animation-name:fa-shake;-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,linear);animation-timing-function:var(--fa-animation-timing,linear)}.fa-shake,.fa-spin{-webkit-animation-delay:var(--fa-animation-delay,0s);animation-delay:var(--fa-animation-delay,0s);-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal)}.fa-spin{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-duration:var(--fa-animation-duration,2s);animation-duration:var(--fa-animation-duration,2s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,linear);animation-timing-function:var(--fa-animation-timing,linear)}.fa-spin-reverse{--fa-animation-direction:reverse}.fa-pulse,.fa-spin-pulse{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,steps(8));animation-timing-function:var(--fa-animation-timing,steps(8))}@media (prefers-reduced-motion:reduce){.fa-beat,.fa-beat-fade,.fa-bounce,.fa-fade,.fa-flip,.fa-pulse,.fa-shake,.fa-spin,.fa-spin-pulse{-webkit-animation-delay:-1ms;animation-delay:-1ms;-webkit-animation-duration:1ms;animation-duration:1ms;-webkit-animation-iteration-count:1;animation-iteration-count:1;-webkit-transition-delay:0s;transition-delay:0s;-webkit-transition-duration:0s;transition-duration:0s}}@-webkit-keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}@keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}@-webkit-keyframes fa-bounce{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}57%{-webkit-transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em))}64%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}to{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}}@keyframes fa-bounce{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}57%{-webkit-transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em))}64%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}to{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}}@-webkit-keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}@keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}@-webkit-keyframes fa-beat-fade{0%,to{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}@keyframes fa-beat-fade{0%,to{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}@-webkit-keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}@keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}@-webkit-keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}8%,24%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}40%,to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}8%,24%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}40%,to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scaleX(-1);transform:scaleX(-1)}.fa-flip-vertical{-webkit-transform:scaleY(-1);transform:scaleY(-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1);transform:scale(-1)}.fa-rotate-by{-webkit-transform:rotate(var(--fa-rotate-angle,none));transform:rotate(var(--fa-rotate-angle,none))}.fa-stack{display:inline-block;vertical-align:middle;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;z-index:var(--fa-stack-z-index,auto)}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:var(--fa-inverse,#fff)}.fa-sr-only,.fa-sr-only-focusable:not(:focus),.sr-only,.sr-only-focusable:not(:focus){position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor)}.svg-inline--fa .fa-secondary,.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fa-duotone.fa-inverse,.fad.fa-inverse{color:var(--fa-inverse,#fff)}
+      @media (prefers-color-scheme: dark) {.inverts-white { fill: #f0f0f0 !important }}
+</style>
+
+  <link rel="stylesheet" href="/arks.github.io/assets/css/style.css">
+
+  
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>ARK NAANs and systems | ARK Alliance</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="ARK NAANs and systems" />
+<meta name="author" content="The ARK Alliance" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The article discusses NAANs’ role in ARKs, preventing naming conflicts, Noid systems, metadata management, and N2T resolver." />
+<meta property="og:description" content="The article discusses NAANs’ role in ARKs, preventing naming conflicts, Noid systems, metadata management, and N2T resolver." />
+<link rel="canonical" href="https://datadavev.github.io/arks.github.io/about/ark-naans-and-systems/" />
+<meta property="og:url" content="https://datadavev.github.io/arks.github.io/about/ark-naans-and-systems/" />
+<meta property="og:site_name" content="ARK Alliance" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-23T17:36:24+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ARK NAANs and systems" />
+<meta name="twitter:site" content="@arks_org" />
+<meta name="twitter:creator" content="@The ARK Alliance" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"The ARK Alliance"},"dateModified":"2021-01-23T17:36:24+00:00","datePublished":"2021-01-23T17:36:24+00:00","description":"The article discusses NAANs’ role in ARKs, preventing naming conflicts, Noid systems, metadata management, and N2T resolver.","headline":"ARK NAANs and systems","mainEntityOfPage":{"@type":"WebPage","@id":"https://datadavev.github.io/arks.github.io/about/ark-naans-and-systems/"},"url":"https://datadavev.github.io/arks.github.io/about/ark-naans-and-systems/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  <link type="application/atom+xml" rel="alternate" href="https://datadavev.github.io/arks.github.io/feed/index.xml" title="ARK Alliance" />
+  	<link rel="apple-touch-icon" sizes="180x180" href="/arks.github.io/assets/images/share/apple-touch-icon.png?v=1.2">
+	<link rel="manifest" href="/arks.github.io/assets/images/share/site.webmanifest?v=1.2">
+	<link rel="icon" sizes=48x48 href="/arks.github.io/assets/images/share//favicon.ico?v=1.2">
+	<link rel="icon" href="/arks.github.io/assets/images/share/favicon.svg?v=1.2" type="image/svg+xml">
+
+    <script>
+    /**
+     * Automatically updates the theme based on the user's preference.
+     */
+    (() => {
+      /**
+       * Function to update the theme based on user preference.
+       */
+      const updateTheme = () => {
+        const htmlElement = document.querySelector("html");
+        htmlElement.setAttribute(
+          "data-bs-theme",
+          window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
+        );
+      };
+
+      // Add event listener for changes in color scheme preference
+      window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", updateTheme);
+
+      // Initial update of theme
+      updateTheme();
+    })();
+  </script>
+
+</head>
+
+  <body class="ark-alliance">
+    <svg style="display: none;">
+  <symbol id="svg-ark"
+          class="svg-inline--fa fa-ark" 
+          aria-hidden="true" 
+          focusable="false" 
+          data-prefix="fak" 
+          data-icon="fa-ark" 
+          role="img" 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 640 512">
+    <path fill="currentColor" d="m86.4 185.9c23.7-1.9 47-3.8 70.7-5.8c6.7-.6 9.9-4.2 10.9-10.9c3.5-23.7 7.4-47 11.5-70.7c1-5.8-2.2-8.3-9.6-7.7c-8.3 .6-10.9-1.9-11.5-10.2c-.3-4.2 1-6.1 5.4-6.7c12.5-1.9 25-3.8 37.4-6.4c39-8 76.5-20.8 112-39c4.5-2.2 8.6-2.2 13.1 0c28.2 13.8 57 26.6 88 32.6c20.5 4.2 40.6 9 61.1 12.8c4.2 1 6.1 2.6 5.4 6.7c-.6 4.5-.3 9.6-6.7 10.2c-13.1 1.6-14.1 1.6-12.2 15c2.9 22.1 6.4 43.8 9.9 65.9c1 6.1 5.4 8 10.9 8.3c32.6 3.2 65 5.8 97.6 4.2c9.6-.3 11.2 1.9 10.2 11.2c-1.6 14.7-2.2 29.4-4.5 43.8c-5.8 39-19.8 74.6-40.6 107.8c-21.4 33.9-48.3 63-81.3 85.8c-29.1 20.2-60.5 35.5-95 43.5c-11.5 2.6-23 4.8-34.2 7c-15 2.9-29.8 .6-44.5-2.6c-29.4-6.1-57.9-14.7-83.8-30.1c-18.6-10.9-36.5-23-53.4-36.2c-24-18.6-42.9-42.2-58.6-67.8c-10.2-17-18.6-35.2-26.2-53.4c-8.6-21.1-14.4-43.2-16.3-65.9c-1-12.2-1.3-24.3-2.2-36.5c-.3-6.1 1.9-8.3 8.3-7.7c9.6 1 19.2 1 28.8 1.6c0 0 0 .3 0 .6zm243.8 123.8h0c0 33 0 65.6 0 98.6c0 15 0 29.8 .3 44.8c0 9 1.9 11.2 11.2 9.9c7.7-1 15.4-3.2 22.7-5.1c25.3-6.7 49.3-15.7 71.4-30.4c1.9-1.3 4.2-4.2 4.2-6.4c0-1.6-3.2-3.8-5.4-4.5c-8.6-2.6-17.9-4.5-26.6-7.4c-17.9-5.8-35.5-11.8-53.1-18.6c-2.2-.6-3.8-4.2-4.8-6.4c-1-2.9-.3-6.1 0-9c0-6.4 1.9-7 7.7-4.8c12.8 5.1 25.3 10.6 38.4 14.7c19.2 6.1 38.7 11.2 58.2 16c6.4 1.6 13.8 4.8 19.5-1.3c13.8-14.1 27.2-28.5 40.6-42.9c3.5-3.5 1.9-6.7-2.6-8.3c-1.6-.6-3.5-.6-5.4-1c-18.6-2.6-37.4-3.5-55.7-7.7c-30.1-7-60.2-14.4-89-26.6c-11.8-5.1-13.4-6.4-12.2-19.2c.3-4.5 2.6-6.4 6.7-4.2c26.6 12.5 54.4 21.1 82.9 27.2c27.8 5.8 56 8.6 84.2 12.8c6.7 1 10.9-2.2 13.8-8c5.4-11.8 11.2-23.7 16.6-35.5c3.5-7.4 1.3-10.9-6.7-11.5c-15.7-1-31.7-1.3-47.4-3.2c-20.5-2.2-41.3-4.5-61.1-9.3c-25.6-6.4-50.9-15.4-76.2-23.7c-12.8-4.2-13.1-5.1-12.5-17.9c0-6.7 1.6-7.4 8-4.8c19.5 7 38.4 15 58.6 20.2c23.4 6.4 47.4 11.2 71.4 14.7c22.4 3.2 45.1 3.2 67.8 4.8c4.8 0 8-1.9 9-6.7c1.9-10.9 3.8-21.8 4.8-32.6c1-12.2-.6-13.4-12.5-13.1c-38.7 1.3-76.5-3.8-113.9-11.8c-34.6-7.4-68.2-18.6-100.5-32.6c-9.3-3.8-11.2-2.6-11.8 7.4c0 .6 0 1.3 0 1.9c0 46.7 0 93.8 0 140.5zm120-150.1c-1.3-5.8-3.5-16-5.1-26.2c-2.2-13.4-3.8-26.9-5.8-40c-.6-4.8-3.5-7-8.3-8c-12.2-2.6-24.3-4.8-35.8-9c-23-8-45.4-17.3-68.2-25.3c-4.2-1.6-9.9-1.3-13.8 0c-34.6 13.4-68.8 26.9-105.3 34.2c-4.8 1-8.3 3.5-9 9c-2.6 18.2-5.4 36.2-8 54.4c-1 5.8-2.2 11.2-2.6 17c-.3 6.7 2.6 8.6 9 6.7c7.7-2.2 15.4-4.8 23-6.7c33-8.3 64.3-21.4 94.7-36.8c2.2-1.3 5.8-1 8 0c7.7 3.2 15 7 22.4 10.6c30.4 14.4 62.1 25 94.7 32.3c9 1.9 10.2 1 9.9-12.2zm-348.2 46.4s0-1.3 0-1.9c-7.7 0-15 0-22.7 0s-10.2 2.9-9.6 10.2c1 10.9 2.6 21.8 3.8 32.6c1 6.7 4.8 9.9 11.8 9.6c16.3-1 32.6-1 48.6-3.2c25.3-3.2 50.6-6.1 75.2-12.5c28.5-7.7 56-18.9 83.5-29.1c15.4-5.4 16.6-8.3 16.6-24.3c0-6.7 0-13.4 0-19.8c0-10.6-2.9-11.8-12.8-8c-18.9 7.7-37.8 16-57.3 21.8c-21.4 6.4-43.5 10.9-65.6 14.7c-24 4.2-48 6.7-72 9.9zm207.4 49h0c0-5.8 0-11.5 0-17.3c-.3-8.3-4.2-10.9-11.8-7c-26.2 13.1-54.4 22.1-82.9 28.8c-25 6.1-50.2 9.9-75.5 13.4c-16 2.2-32 1.9-48 2.9c-6.1 .3-8.6 3.5-6.4 8.3c5.8 13.8 12.2 27.2 18.6 40.6c2.2 4.8 6.1 7 11.8 6.1c13.8-1.9 27.8-2.9 41.6-5.1c17.9-2.9 36.5-4.5 54.1-9.9c28.8-8.6 56.6-19.8 84.8-30.1c10.2-3.8 16.6-9.9 14.4-22.1c-.6-2.9 0-6.1 0-9zm0 77.4s0 0 0 0c0-7.4 0-14.7 0-22.1c0-4.8-2.2-8-8-6.1c-23 8.3-45.8 17.6-69.1 25.3c-15 5.1-30.4 9-45.8 11.8c-18.2 3.5-36.8 5.1-55 7.7c-2.6 .3-6.4 1.9-7 4.2c-.6 1.9 1 5.8 2.6 7.7c11.8 13.1 24.3 25.6 36.5 38.4c4.2 4.2 8.6 5.4 14.4 4.2c15.4-3.8 30.7-8 46.1-11.5c26.2-6.1 50.6-17.3 75.5-27.5c7.7-3.2 11.5-7.7 10.6-16c-.6-5.1 0-10.6 0-15.7zm0 91.5c0-9.6 0-19.2 0-28.8c0-10.2-3.8-12.5-13.1-8.6c-16 6.4-31.7 13.1-48 18.6c-13.4 4.5-27.5 7.4-41 11.2c-3.2 1-5.8 3.5-8.3 5.1c1.9 2.6 3.5 6.1 6.1 7.4c16.6 8 33.3 16.6 50.6 23c14.4 5.1 29.4 8.3 44.5 11.5c7.4 1.6 9.6-1.6 9.6-9c0-10.2 0-20.2 0-30.4z" />
+  </symbol>
+</svg>
+
+<svg style="display: none;">
+  <symbol id="svg-fosstodon"
+          class="svg-inline--fa fa-fosstodon" 
+          aria-hidden="true" 
+          focusable="false" 
+          data-prefix="fab" 
+          data-icon="fa-fosstodon" 
+          role="img" 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 448 512">
+  <path class="inverts-white" fill="currentColor" d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/>
+  </symbol>
+</svg>
+
+<svg style="display: none;">
+  <symbol id="svg-twitter-x"
+          class="svg-inline--fa fa-twitter-x" 
+          aria-hidden="true" 
+          focusable="false" 
+          data-prefix="fab" 
+          data-icon="fa-twitter-x" 
+          role="img" 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 512 512">
+  <path class="inverts-white" fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+  </symbol>
+</svg>
+
+<svg style="display: none;">
+  <symbol id="svg-youtube"
+          class="svg-inline--fa fa-youtube" 
+          aria-hidden="true" 
+          focusable="false" 
+          data-prefix="fab" 
+          data-icon="fa-youtube" 
+          role="img" 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 576 512">
+  <path class="inverts-white" fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+  </symbol>
+</svg>
+
+<svg style="display: none;">
+  <symbol id="svg-github"
+          class="svg-inline--fa fa-github" 
+          aria-hidden="true" 
+          focusable="false" 
+          data-prefix="fab" 
+          data-icon="fa-github" 
+          role="img" 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 640 512">
+  <path class="inverts-white" fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+  </symbol>
+</svg>
+
+<svg style="display: none;">
+  <symbol id="svg-link"
+          class="svg-inline--fa fa-link" 
+          aria-hidden="true" 
+          focusable="false" 
+          data-prefix="fab" 
+          data-icon="fa-link" 
+          role="img" 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 640 512">
+  <path class="inverts-white" fill="currentColor" d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/>
+  </symbol>
+</svg>
+
+<svg style="display: none;">
+  <symbol id="svg-rss"
+          class="svg-inline--fa fa-rss" 
+          aria-hidden="true" 
+          focusable="false" 
+          data-prefix="fab" 
+          data-icon="fa-rss" 
+          role="img" 
+          xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 448 512">
+  <path class="inverts-white" fill="currentColor" d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/>
+  </symbol>
+</svg>
+
+    <header class="container mt-4 d-none d-md-block">
+	<div class="d-flex justify-content-center">
+		<a href="/arks.github.io" class="text-brand">
+			<svg class="ark-alliance__logo svg-inline--fa fa-fa-ark fa-5x"
+			     aria-hidden="true"
+			     role="img"
+			     xmlns="http://www.w3.org/2000/svg"
+			     viewBox="0 0 640 512" data-fa-i2svg="">
+				<use xlink:href="#svg-ark"></use>
+			</svg>
+		</a>
+		<div>
+			<h1 class="ark-alliance__title display-1">
+				ARK Alliance
+			</h1>
+			<p class="ark-alliance__tagline text-secondary d-block">
+			Home of the Archival Resource Key (ARK)
+			</p>
+		</div>
+	</div>
+</header>
+
+        <nav class="ark-alliance__navbar navbar navbar-expand-md border-top border-bottom border-dark-subtle">
+      <div class="container">
+        <a href="/arks.github.io" class="navbar-brand d-md-none">
+          <svg class="ark-alliance__logo svg-inline--fa fa-fa-ark fa-xl text-brand"
+               aria-hidden="true"
+               role="img"
+               xmlns="http://www.w3.org/2000/svg"
+               viewBox="0 0 640 512" data-fa-i2svg="">
+            <use xlink:href="#svg-ark"></use>
+          </svg>
+          ARK Alliance
+        </a>
+        <button class="navbar-toggler" 
+               type="button" 
+               data-bs-toggle="collapse" 
+               data-bs-target="#navbar-content" 
+               aria-controls="navbar-content" 
+               aria-expanded="false" 
+               aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" 
+             id="navbar-content">
+          <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-uppercase">
+            
+              
+              <li class="nav-item">
+                <a class="nav-link "
+                   href="/arks.github.io/">
+                Home
+                </a>
+              </li>
+            
+              
+              <li class="nav-item">
+                <a class="nav-link "
+                   href="/arks.github.io/about/getting-started-implementing-arks/">
+                Get Started
+                </a>
+              </li>
+            
+              
+              <li class="nav-item">
+                <a class="nav-link "
+                   href="/arks.github.io/about/">
+                About Arks
+                </a>
+              </li>
+            
+              
+              <li class="nav-item">
+                <a class="nav-link "
+                   href="/arks.github.io/community/">
+                Community
+                </a>
+              </li>
+            
+              
+              <li class="nav-item">
+                <a class="nav-link "
+                   href="/arks.github.io/resources/">
+                Resources
+                </a>
+              </li>
+            
+              
+              <li class="nav-item">
+                <a class="nav-link "
+                   href="/arks.github.io/news/">
+                News
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="ark-alliance__content container my-5">
+      <h1 class="ark-alliance__content--title">
+        ARK NAANs and systems
+      </h1>
+      <div class="ark-alliance__content--body">
+        
+<p>Whether you use an ARK service provider, a plug-in or microservice, or build
+your own ARK support, there are multiple systems that play a part in making
+ARKs persist. The following systems are likely to be part of your ARK
+solution.</p>
+
+<h2 id="name-assigning-authority-number-naan-registry">Name Assigning Authority Number (NAAN) registry</h2>
+
+<p>A NAAN is a number that uniquely identifies your institution, and appears near
+the start of the ARKs that your organization produces.</p>
+
+<div class="language-plaintext bg-secondary-subtle highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  https://example.org/ark:/12345/x54xz321/s3/f8.05v.tiff
+  \_________________/ \__/ \___/ \______/\____/\_______/
+              |        |     |      |      |       |
+              |  ARK Label   |      | Sub-parts  Variants
+              |              |      |
+Name Mapping Authority (NMA) |    Assigned Name
+                             |
+              Name Assigning Authority Number (NAAN)
+</code></pre></div></div>
+
+<p>The NAAN part of an ARK, following the “ark:” label, uniquely identifies the
+organization that assigned the Name part of the ARK. Often the initial access
+provider coincides with the original namer (represented by the NAAN), however,
+access may be provided by one or more different entities instead of or in
+addition to the original naming authority.</p>
+
+<p>The NAAN used above, 13030, represents the California Digital Library (CDL).
+Over 1000 organizations have registered for ARK NAANs, including numerous
+universities, Google, the Internet Archive, WIPO, the British Library, and
+other national libraries.</p>
+
+<p>NAANs are assigned to prevent name assignment conflicts. By obtaining a NAAN,
+an organization gets the exclusive right to create ARKs “under” that NAAN,
+which is part of a prefix in front of all your ARKs.</p>
+
+<p>The set of ARKs you can create is infinite and is known as your NAAN’s
+namespace. Since organizations only create ARKs in their own namespaces, ARK
+assignments between organizations will never “collide”.</p>
+
+<p>All NAANs must be registered with the Name-to-Thing (N2T) ARK registry and
+listed in the public NAAN registry, which also lists the official resolver for
+each NAAN. Any stable memory organization may obtain a NAAN at no cost and
+begin assigning ARKs. Please fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfd1CX6idwLB47g8OGKUG654auV8IU8yI7DAs61cXGOoFDn0g/viewform?c=0&amp;w=1">NAAN request form</a> if you are
+interested in generating and using ARKs for your information objects.</p>
+
+<p>You may also use that form to request NAANs on behalf of other organizations.
+Your organization might represent a group of other organizations, possibly
+providing them services such as ARK minting and database management. Examples
+include a non-profit aggregator or a for-profit archival system vendor. To
+proceed, you would fill out the form and list your own organization as a
+“service provider”. Note that a NAAN requested in this way is meant for an
+organization that directly curates or creates content to which ARKs will be
+assigned. Each such organization that you serve should have its own NAAN.
+Moreover, if a service provider does resolution for a dozen organizations, it
+would not be surprising if its resolver URL were registered with a dozen
+different NAANs.</p>
+
+<p>The ARK Alliance maintains a complete registry of all assigned NAANs,
+currently at the California Digital Library. The registry is mirrored at the
+(U.S.) National Library of Medicine and the National Library of France.</p>
+
+<p>You can request a change to the registry entry for a NAAN related to your
+organization by filling out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfd1CX6idwLB47g8OGKUG654auV8IU8yI7DAs61cXGOoFDn0g/viewform?c=0&amp;w=1">same online form</a> used for
+requesting a new NAAN. For security purposes requests are processed manually.
+Example reasons for a change may include notifying N2T of a change in your
+organization’s contact person or resolver URL, updating your organization’s
+name assignment policy (sample policy), requesting an additional NAAN, eg, to
+support a significant new body of ARKs or new organizational division, and
+transitioning your NAAN to another organization that will carry on your work
+and future use of your NAAN.</p>
+
+<p>NAANs are portable. If your organization transitions into or out of a vendor
+relationship, there is no impediment to taking your NAAN with you.</p>
+
+<p>![][1]</p>
+
+<h2 id="nice-opaque-identifier-noid-systems">Nice Opaque Identifier (Noid) systems</h2>
+
+<p>A “Noid system” is an identifier service base on the Noid (Nice Opaque
+Identifier) software package. Noid can be used to do one or more of these
+three functions.</p>
+
+<ol>
+  <li>Mint name strings for ARKs, and ensure that the same string does not get
+assigned twice.</li>
+  <li>Manage metadata for things with ARKs. This includes the “target URL”
+(where the thing currently resides), but can also include other metadata
+such as title and date.</li>
+  <li>Provide a local resolver for ARKs.</li>
+</ol>
+
+<p>If you’re using an ARK service provider, a plug-in or a system with
+out-of-the-box support for ARKs, you won’t need to run a separate Noid system.
+The sections below describe the Noid software in more detail.</p>
+
+<h3 id="minting-name-strings">Minting name strings</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  https://example.org/ark:/12345/x54xz321/s3/f8.05v.tiff
+  \_________________/ \__/ \___/ \______/\____/\_______/
+              |        |     |      |      |       |
+              |  ARK Label   |      | Sub-parts  Variants
+              |              |      |
+Name Mapping Authority (NMA) |    Assigned Name
+                             |
+              Name Assigning Authority Number (NAAN)
+</code></pre></div></div>
+
+<p>The “assigned name” in an ARK is the part of the ARK string that your
+organization is responsible for making unique. Appended to your NAAN, it
+becomes globally unique. A Noid minter can help because it ensures that the
+same string does not get generated twice. If you expect to be running a Noid
+minter locally, there is further information on ARK name syntax and best
+practices in the <a href="/arks.github.io/about/running-minters-and-resolvers/">Running ARK Minters and Resolvers</a> section.</p>
+
+<p>You don’t have to use a Noid minter to generate unique assigned names. No
+matter how you generate them, they can still be used with the other two Noid
+functions.</p>
+
+<h3 id="managing-metadata">Managing metadata</h3>
+
+<p>A local Noid system can also store and return metadata for each thing
+(resource) that is assigned an ARK. This usually happens by way of an API with
+a local repository, so that as metadata is assigned or edited in your
+repository system, it is updated in your Noid system. Different Noid
+implementations or ARK service providers may support different metadata
+standards. The Metadata section of the <a href="/arks.github.io/about/ark-features/">ARK features</a> page will provide more
+detail about metadata and ARKs.</p>
+
+<p>You don’t have to use Noid to manage your metadata, and some organizations
+already use more sophisticated metadata and object management systems. You
+may, however, need to use Noid to store one particular metadata element, the
+target URL, if you want to use Noid’s resolution function.</p>
+
+<h3 id="resolution">Resolution</h3>
+
+<p>As noted earlier, a resolver is the mechanism for redirecting a persistent
+link that a user has followed to the URL where the thing currently resides.</p>
+
+<p>For a resolver to work, its hostname must be carefully chosen so it won’t ever
+need to be changed. Memory organizations, some of them centuries old, tend to
+have hostnames well-suited to be resolvers. Some well-known, younger resolvers
+are n2t.net (the ARK resolver), identifiers.org, doi.org, handle.net, and
+purl.org.</p>
+
+<p>ARKs can be implemented with a local resolver only, a global resolver only, or
+combination of both.</p>
+
+<h3 id="n2t-a-global-resolver">N2T: a global resolver</h3>
+
+<p>N2T.net is a global ARK resolver. N2T, which stands for Name-to-Thing, is
+actually a generalized resolver for mapping names into things, so it knows
+where to route over 900 other types of identifier – ARK, DOI, PMID, Taxon,
+PDB, ISSN, etc. If you’re interested, the diagram and the next answer give a
+bit more detail.</p>
+
+<p>Resolution starts when someone attempts to access a URL (eg, by clicking on a
+link) consisting of “https://n2t.net/” followed by the identifier (name) to be
+resolved. As with any resolver, no one knows in advance – not the user, not
+the web browser, nor N2T itself – if resolution will be successful. It depends
+on what N2T finds that it knows about the received identifier.</p>
+
+<p>When resolution is finished, the user is often unaware that it happened,
+unless they are paying attention (eg, they notice that the link in the
+location bar is different from what they clicked on). Resolution is designed
+to take place without the user noticing.</p>
+
+<p>Most ARKs are created by organizations that advertise (“publish”) them based
+at their own resolvers. For example, this ARK was published based at the
+ark.bnf.fr resolver:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    https://ark.bnf.fr/ark:/12148/btv1b8449691v/f29
+</code></pre></div></div>
+
+<p>Having to run and maintain your own resolver is the cost of complete autonomy.
+Using your own resolver also lets you do branding via the hostname, the
+downside being that brands are transient and tend to make identifiers fragile.
+Political and even legal (eg, trademarks) pressures may make supporting older
+branded hostnames, hence their identifiers, difficult. And while your
+organization may provide the staffing and IT resources needed to host and run
+a local resolver today, IT policy and support may change in the future.</p>
+
+<p>Another reason to use N2T is if your ARKs “in the wild” show up without your
+resolver hostname (meaning that they start “ark:…”, which is not uncommon to
+see), the person wanting to use them won’t need to know the hostname as long
+as they know to add “n2t.net” in front of them. This works because N2T knows
+the correct resolver hostname.</p>
+
+<h3 id="n2t-feature-suffix-passthrough">N2T feature: suffix passthrough</h3>
+
+<p>Suffix passthrough is a feature of the N2T resolver that allows you to assign
+a single identifier to large complex objects with many files while still being
+able to refer to each distinct file.</p>
+
+<p>Suppose you have a registered ARK, https://n2t.net/ark:/12345/6789, that
+redirects to the web server page,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   https://a.example.org/dataset542
+</code></pre></div></div>
+
+<p>And suppose that same server also serves up these pages:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   https://a.example.org/dataset542/volume3
+   https://a.example.org/dataset542/volume3/part2
+   https://a.example.org/dataset542/volume3/part2.pdf
+</code></pre></div></div>
+
+<p>What suffix passthrough does is to let your one registered ARK act as if you
+had also registered these three ARKs below, which would resolve to the pages
+above, respectively:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   https://n2t.net/ark:/12345/6789/volume3
+   https://n2t.net/ark:/12345/6789/volume3/part2
+   https://n2t.net/ark:/12345/6789/volume3/part2.pdf
+</code></pre></div></div>
+
+<p>In this case, suffix passthrough saved your having to maintain registrations
+for three more pages. In fact, it works for an unlimited number of pages. You
+can <a href="https://n2t.net/e/suffix_passthrough.html">learn more about N2T’s suffix passthrough</a>.</p>
+
+
+
+      </div>
+    </div>
+
+    <nav class="ark-allicance__social my-4">
+	<div class="d-flex justify-content-center my-4">
+		
+			
+			
+				<a href="https://github.com/arks-org" class="link-secondary p-3">
+					<svg aria-hidden="true"
+					     role="img"
+					     xmlns="http://www.w3.org/2000/svg"
+					     data-fa-i2svg=""
+						 class="ark-alliance__social--link svg-inline--fa fa-fw fa-xl fa-github"
+						 viewBox="0 0 496 512">
+						<use xlink:href="#svg-github"></use>
+					</svg>
+				</a>
+				
+		
+			
+			
+				<a href="https://twitter.com/arks_org" class="link-dark p-3">
+					<svg aria-hidden="true"
+					     role="img"
+					     xmlns="http://www.w3.org/2000/svg"
+					     data-fa-i2svg=""
+						 class="ark-alliance__social--link svg-inline--fa fa-fw fa-xl fa-twitter-x"
+						 viewBox="0 0 512 512">
+						<use xlink:href="#svg-twitter-x"></use>
+					</svg>
+				</a>
+				
+		
+			
+			
+				<a href="https://fosstodon.org/@arks_org" class="link-primary p-3">
+					<svg aria-hidden="true"
+					     role="img"
+					     xmlns="http://www.w3.org/2000/svg"
+					     data-fa-i2svg=""
+						 class="ark-alliance__social--link svg-inline--fa fa-fw fa-xl fa-fosstodon"
+						 viewBox="0 0 448 512">
+						<use xlink:href="#svg-fosstodon"></use>
+					</svg>
+				</a>
+				
+		
+			
+			
+				<a href="https://youtube.com/@arks_org" class="link-danger p-3">
+					<svg aria-hidden="true"
+					     role="img"
+					     xmlns="http://www.w3.org/2000/svg"
+					     data-fa-i2svg=""
+						 class="ark-alliance__social--link svg-inline--fa fa-fw fa-xl fa-youtube"
+						 viewBox="0 0 576 512">
+							<use xlink:href="#svg-youtube"></use>
+					</svg>
+				</a>
+				
+		
+	</div>
+</nav>
+
+    <footer class="ark-alliance__footer border-top border-dark-subtle my-4">
+	<nav class="container mt-4">
+		<ul class="d-flex justify-content-between list-unstyled border-bottom border-dark-subtle pb-2">
+			<li>
+				<a class="text-uppercase link-secondary"
+				   href="http://eepurl.com/hnpLi5">
+					Subscribe to our Newsletter
+				</a>
+			</li>
+			<li>
+				<span class="h5">
+					Updated 10 September 2023
+				</span>
+				<a class="btn btn-primary btn-sm"
+				   href="/arks.github.io/feed/">
+					<svg class="svg-inline--fa fa-fa-rss"
+					     aria-hidden="true"
+					     role="img"
+					     xmlns="http://www.w3.org/2000/svg"
+					     viewBox="0 0 448 512" data-fa-i2svg="">
+						<use xlink:href="#svg-rss"></use>
+					</svg> RSS
+				</a>
+			</li>
+			<li>
+				<a class="text-uppercase link-secondary"
+				   href="mailto:name@example.com">
+					Contact Us
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+
+	<nav class="container m-4">
+		<ul class="nav">
+			<li class="nav-item">
+				<a class="nav-link text-uppercase link-secondary"
+				   href="/sitemap/">
+					Sitemap
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-uppercase link-secondary"
+				   href="https://github.com/datadavev/arks.github.io">
+					<svg aria-hidden="true"
+					     role="img"
+					     xmlns="http://www.w3.org/2000/svg"
+					     data-fa-i2svg=""
+						 class="ark-alliance__social--link svg-inline--fa fa-xl fa-github"
+						 viewBox="0 0 496 512">
+						<use xlink:href="#svg-github"></use>
+					</svg> Repository
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-uppercase link-secondary"
+				   href="">
+					<svg aria-hidden="true"
+					     role="img"
+					     xmlns="http://www.w3.org/2000/svg"
+					     data-fa-i2svg=""
+						 class="ark-alliance__social--link svg-inline--fa fa-xl fa-github"
+						 viewBox="0 0 496 512">
+						<use xlink:href="#svg-github"></use>
+					</svg> Issues
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-uppercase link-secondary"
+				   href="https://github.com/datadavev/arks.github.io/wiki">
+					<svg aria-hidden="true"
+					     role="img"
+					     xmlns="http://www.w3.org/2000/svg"
+					     data-fa-i2svg=""
+						 class="ark-alliance__social--link svg-inline--fa fa-xl fa-github"
+						 viewBox="0 0 496 512">
+						<use xlink:href="#svg-github"></use>
+					</svg> Wiki Docs
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
