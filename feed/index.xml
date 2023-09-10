@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://arks-org.github.io/arks.github.io/feed/index.xml" rel="self" type="application/atom+xml" /><link href="https://arks-org.github.io/arks.github.io/" rel="alternate" type="text/html" /><updated>2023-09-10T03:15:59+00:00</updated><id>https://arks-org.github.io/arks.github.io/feed/index.xml</id><title type="html">ARK Alliance</title><subtitle>ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship.</subtitle><author><name>The ARK Alliance</name></author><entry><title type="html">Community update 2023-06-13: stickers, tutorials, code of conduct</title><link href="https://arks-org.github.io/arks.github.io/news/2023-06-14-community-update-stickers-tutorials-code-of-conduct/" rel="alternate" type="text/html" title="Community update 2023-06-13: stickers, tutorials, code of conduct" /><published>2023-06-14T02:30:11+00:00</published><updated>2023-06-14T02:30:11+00:00</updated><id>https://arks-org.github.io/arks.github.io/news/community-update-stickers-tutorials-code-of-conduct</id><content type="html" xml:base="https://arks-org.github.io/arks.github.io/news/2023-06-14-community-update-stickers-tutorials-code-of-conduct/">&lt;p&gt;ARK Alliance’s thriving community adds 74 new organizations, launches vinyl
+stickers and tutorials, and introduces a Code of Conduct.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The past six months have seen strong growth in the ARK community, including
+registration of 74 new ARK organizations. As always we welcome new volunteers
+for our working groups, especially those interested in raising ARK awareness
+and curating requests for new ARK organizations. Please let us know via email
+to info@arks.org.&lt;/p&gt;
+
+&lt;p&gt;We now have stunning new vinyl ARK Alliance stickers! They are in a standard
+hexagonal format suitable for tiling your laptop, phone, refrigerator, etc.
+Currently they can only be ordered &lt;a href=&quot;https://www.stickermule.com/item/2421090c47beca439dbded424879d2e6&quot;&gt;online here&lt;/a&gt; via Stickermule.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2023-06-14-community-update-2023-06-13-stickers-tutorials-code-of-conduct/arka-vinyl-sticker.png&quot; alt=&quot;&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;high&quot; height=&quot;142&quot; loading=&quot;eager&quot; width=&quot;129&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We are also happy to announce that a 3-hour ARK tutorial has been given this
+year at the annual Code4lib and IIIF conferences (&lt;a href=&quot;../../assets/documents/2023/06/ARK-Training-Tutorial-IIIF-2023-slides.pdf&quot;&gt;slides here&lt;/a&gt;). There are
+four more tutorials coming up:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;90 mins at &lt;a href=&quot;https://dwebcamp.org/&quot;&gt;DWeb Camp&lt;/a&gt; around June 20&lt;/li&gt;
+  &lt;li&gt;180 mins at &lt;a href=&quot;https://2023.jcdl.org/&quot;&gt;Joint Conference on Digital Libraries&lt;/a&gt; (ACM/IEEE JCDL) June
+26&lt;/li&gt;
+  &lt;li&gt;60 mins at &lt;a href=&quot;https://2023julyesipmeeting.sched.com/&quot;&gt;Earth Science Information Partners&lt;/a&gt; (ESIP) July 20&lt;/li&gt;
+  &lt;li&gt;90 mins at &lt;a href=&quot;https://ipres2023.us/&quot;&gt;International Conference on Digital Preservation&lt;/a&gt; (iPRES)
+around Sept 20&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Finally we would like to announce availability of the &lt;a href=&quot;/arks.github.io/about/ark-community-code-of-conduct/&quot;&gt;ARK Community Code of
+Conduct&lt;/a&gt;. This document represents consensus across the ARK Alliance Advisory
+Group and the NAAN Registry, Outreach, and Technical Working Groups. Working
+documents for these groups are linked from the sidebar on the &lt;a href=&quot;https://wiki.lyrasis.org/display/ARKs/ARKs+in+the+Open+Project&quot;&gt;ARKA wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;With a total of over 1100, here are the 74 newest &lt;a href=&quot;https://n2t.net/e/pub/naan_table.html&quot;&gt;ARK organizations&lt;/a&gt;
+registered between 2022-12-14 and 2023-06-11:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cambridge University Library&lt;/li&gt;
+  &lt;li&gt;Indiana University Library Technologies&lt;/li&gt;
+  &lt;li&gt;National Library of Israel&lt;/li&gt;
+  &lt;li&gt;National Institute for Japanese Language and Linguistics&lt;/li&gt;
+  &lt;li&gt;Leipzig University Library&lt;/li&gt;
+  &lt;li&gt;University of Edinburgh&lt;/li&gt;
+  &lt;li&gt;Lexidoo&lt;/li&gt;
+  &lt;li&gt;Academia Itapecuruense de Ciências, Letras e Artes&lt;/li&gt;
+  &lt;li&gt;reDesign journal&lt;/li&gt;
+  &lt;li&gt;REDict&lt;/li&gt;
+  &lt;li&gt;Project Tirtha&lt;/li&gt;
+  &lt;li&gt;Justo de la Cueva dokumentu eta artxibo gunea&lt;/li&gt;
+  &lt;li&gt;BiUSI – Biblioteche dell’Università della Svizzera italiana&lt;/li&gt;
+  &lt;li&gt;DELTA EXPERT&lt;/li&gt;
+  &lt;li&gt;Cartodebat&lt;/li&gt;
+  &lt;li&gt;FernUni Schweiz, UniDistance Suisse&lt;/li&gt;
+  &lt;li&gt;University of Geneva&lt;/li&gt;
+  &lt;li&gt;KSEC&lt;/li&gt;
+  &lt;li&gt;AGENCE CINEMA EDUCATION&lt;/li&gt;
+  &lt;li&gt;dipongo&lt;/li&gt;
+  &lt;li&gt;Cuadernos de Administración&lt;/li&gt;
+  &lt;li&gt;SCIENCEVOLUTION Centro de Investigación y Desarrollo&lt;/li&gt;
+  &lt;li&gt;ARCHIPEL&lt;/li&gt;
+  &lt;li&gt;Mathena Education&lt;/li&gt;
+  &lt;li&gt;HiRADa&lt;/li&gt;
+  &lt;li&gt;Congo Research Papers&lt;/li&gt;
+  &lt;li&gt;Hacker Archive&lt;/li&gt;
+  &lt;li&gt;Chemins d’avenirs&lt;/li&gt;
+  &lt;li&gt;Centre d’écologie fonctionnelle et évolutive&lt;/li&gt;
+  &lt;li&gt;Impala&lt;/li&gt;
+  &lt;li&gt;Grains’up&lt;/li&gt;
+  &lt;li&gt;Bibliothèque patrimoniale – Ville de Montauban&lt;/li&gt;
+  &lt;li&gt;Opéra national de Paris&lt;/li&gt;
+  &lt;li&gt;Zeeuws Archief&lt;/li&gt;
+  &lt;li&gt;Jongleur Pictures LLC&lt;/li&gt;
+  &lt;li&gt;Universidad Católica Andrés Bello. Facultad de Ingeniería Revista Tekhné&lt;/li&gt;
+  &lt;li&gt;monecole.fr&lt;/li&gt;
+  &lt;li&gt;Kwyk&lt;/li&gt;
+  &lt;li&gt;ARGO SAS&lt;/li&gt;
+  &lt;li&gt;Revista Eletronica de Linguas e Literaturas Estrangeiras&lt;/li&gt;
+  &lt;li&gt;Revista de Economía Social y Solidaria CIRIEC Costa Rica&lt;/li&gt;
+  &lt;li&gt;University of Wisconsin-Milwaukee Libraries&lt;/li&gt;
+  &lt;li&gt;Toyota Research Institute&lt;/li&gt;
+  &lt;li&gt;Design Museum Gent&lt;/li&gt;
+  &lt;li&gt;Archives at NCBS&lt;/li&gt;
+  &lt;li&gt;Tennessee State Library and Archives&lt;/li&gt;
+  &lt;li&gt;International Technology and Education Journal&lt;/li&gt;
+  &lt;li&gt;Spiridon&lt;/li&gt;
+  &lt;li&gt;VAST-LAB&lt;/li&gt;
+  &lt;li&gt;revista Universidad Médica Pinareña&lt;/li&gt;
+  &lt;li&gt;Fundación Miguel Lillo&lt;/li&gt;
+  &lt;li&gt;Futur en herbe&lt;/li&gt;
+  &lt;li&gt;International Bureau of Weights and Measures&lt;/li&gt;
+  &lt;li&gt;YOUSCRIBE&lt;/li&gt;
+  &lt;li&gt;Herbarium, Biodiversity Research Museum, Academia Sinica&lt;/li&gt;
+  &lt;li&gt;Institut des belles-lettres arabes&lt;/li&gt;
+  &lt;li&gt;DIVA museum&lt;/li&gt;
+  &lt;li&gt;Remulci: Revista Multidisciplinaria de Investigación Científica&lt;/li&gt;
+  &lt;li&gt;Université de Toulouse&lt;/li&gt;
+  &lt;li&gt;Archives Camoin&lt;/li&gt;
+  &lt;li&gt;CASIO France&lt;/li&gt;
+  &lt;li&gt;SAPA Foundation, Swiss Archive of the Performing Arts&lt;/li&gt;
+  &lt;li&gt;Signes Emergents&lt;/li&gt;
+  &lt;li&gt;Academic Software BV&lt;/li&gt;
+  &lt;li&gt;Fiocruz. Revista Fitos&lt;/li&gt;
+  &lt;li&gt;KDetude&lt;/li&gt;
+  &lt;li&gt;MODCO&lt;/li&gt;
+  &lt;li&gt;Aula Virtual&lt;/li&gt;
+  &lt;li&gt;Revista Académica Internacional de Educación Física&lt;/li&gt;
+  &lt;li&gt;Research Inspiration&lt;/li&gt;
+  &lt;li&gt;Journal of Experimental and Molecular Biology&lt;/li&gt;
+  &lt;li&gt;Huis voor de Kunsten Limburg&lt;/li&gt;
+  &lt;li&gt;Amsterdam Time Machine&lt;/li&gt;
+  &lt;li&gt;Goodwin Archive&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>arks_org</name></author><summary type="html">ARK Alliance’s thriving community adds 74 new organizations, launches vinyl stickers and tutorials, and introduces a Code of Conduct.</summary></entry><entry><title type="html">Help us to make cultural heritage data more persistent</title><link href="https://arks-org.github.io/arks.github.io/news/2023-05-31-help-us-to-make-cultural-heritage-data-more-persistent/" rel="alternate" type="text/html" title="Help us to make cultural heritage data more persistent" /><published>2023-05-31T14:01:15+00:00</published><updated>2023-05-31T14:01:15+00:00</updated><id>https://arks-org.github.io/arks.github.io/news/help-us-to-make-cultural-heritage-data-more-persistent</id><content type="html" xml:base="https://arks-org.github.io/arks.github.io/news/2023-05-31-help-us-to-make-cultural-heritage-data-more-persistent/">&lt;p&gt;Europeana Foundation seeks input through a survey to enhance persistent
+identifier practices in cultural heritage, ensuring data accessibility and
+interoperability in a common European data space.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;[This guest post from colleagues at &lt;a href=&quot;https://pro.europeana.eu&quot;&gt;Europeana&lt;/a&gt; originally appeared &lt;a href=&quot;https://pro.europeana.eu/post/help-us-to-make-cultural-heritage-data-more-persistent&quot;&gt;here&lt;/a&gt;.]&lt;/p&gt;
+
+&lt;p&gt;Persistent identifiers are key to making cultural heritage data interoperable
+and encouraging reuse amongst audiences. Discover how the common European data
+space for cultural heritage consortium is working to support the sector to use
+these and take &lt;a href=&quot;https://survey.zohopublic.com/zs/CCCNrf&quot;&gt;our survey&lt;/a&gt; to share your thoughts!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2023-05-31-help-us-to-make-cultural-heritage-data-more-persistent/persistent_identifiers_survey_lead.jpg&quot; alt=&quot;Title: Veldzijde, wapensteen, detail Creator: Tangel, L.M. Date: 1990-12-17
+Institution: Rijksdienst voor het Cultureel Erfgoed Country: Netherlands&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;high&quot; height=&quot;495&quot; loading=&quot;eager&quot; width=&quot;1024&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Building a &lt;a href=&quot;https://pro.europeana.eu/page/common-european-data-space-for-cultural-heritage&quot;&gt;common European data space for cultural heritage&lt;/a&gt; where data can
+be easily shared for reuse requires organisations that create data
+infrastructures to rely, as much as possible, on unique and persistent
+identifiers.&lt;/p&gt;
+
+&lt;p&gt;As the steward of the data space, Europeana Foundation, together with the 18
+consortium members, is investing resources in reviewing the adoption and
+implementation of persistent identifiers in the cultural heritage sector. Read
+on to discover what persistent identifiers are, how we are doing this, and how
+you can get involved.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-a-persistent-identifier&quot;&gt;&lt;em&gt;What is a persistent identifier?&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;A Persistent Identifier (PID) is a globally unique and long-lasting reference
+to potentially any sort of digital or non-digital entity, providing the
+information required to reliably identify, verify, locate and access it. They
+ensure that the digital entity is ‘set in stone’ and can always be findable
+through that identifier.&lt;/p&gt;
+
+&lt;p&gt;Examples of PIDs are &lt;a href=&quot;/arks.github.io/about/&quot;&gt;Archival Resource Key (ARK)&lt;/a&gt;, &lt;a href=&quot;https://www.doi.org/&quot;&gt;Digital Object Identifier
+(DOI)&lt;/a&gt;, &lt;a href=&quot;https://www.ifla.org/references/best-practice-for-national-bibliographic-agencies-in-a-digital-age/resource-description-and-standards/identifiers/national-bibliography-number-nbn/&quot;&gt;National Bibliography Numbers (NBN)&lt;/a&gt;, &lt;a href=&quot;https://www.pidconsortium.net/&quot;&gt;Persistent Identifiers for
+eResearch (ePIC)&lt;/a&gt;, among others.&lt;/p&gt;
+
+&lt;p&gt;To see how they work in practice, take, for example, the Mona Lisa (La
+Joconde). The painting is identified by an ARK persistent identifier,
+‘ark:/53355/cl010066723’. If this persistent identifier is entered into
+relevant software (in this case, it can be resolved via the &lt;a href=&quot;/arks.github.io/about/n2t-global-resolver/&quot;&gt;N2T global
+resolver&lt;/a&gt; to ‘&lt;a href=&quot;https://n2t.net/ark:/53355/cl010066723&quot;&gt;https://n2t.net/ark:/53355/cl010066723&lt;/a&gt;)’ it then presents the
+webpage from the Louvre where the digitised object is presented alongside its
+digital representations. La Joconde will always be identifiable and findable
+on the web through this identifier.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-are-persistent-identifiers-important-for-the-data-space-for-cultural-heritage&quot;&gt;&lt;strong&gt;Why are persistent identifiers important for the data space for cultural heritage?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Persistent identification sits at the foundation of the &lt;a href=&quot;https://www.go-fair.org/fair-principles/&quot;&gt;FAIR principles&lt;/a&gt;
+which stand for Findable, Accessible, Interoperable and Reusable. The adoption
+of persistent identifiers by cultural heritage institutions with digital
+collections shows commitment towards interoperability and data access that in
+turn builds trust in the institution and the data it creates. Adoption of
+persistent identifiers will also support the dissemination and reuse of
+cultural heritage objects, helping to make them more accessible to audiences
+across the data space.&lt;/p&gt;
+
+&lt;p&gt;Not assigning persistent identifiers to digitised cultural heritage objects
+can also have a negative impact. The most common manifestation of the absence
+of a persistent identifier strategy are broken links which, besides affecting
+all forms of (re)use, also negatively impact the traffic towards the
+institution’s website and its SEO ranking amongst search engines.&lt;/p&gt;
+
+&lt;h2 id=&quot;your-input-is-key&quot;&gt;&lt;strong&gt;Your input is key&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;We want to establish a consolidated and more robust persistent identification
+framework for the data space, and to do that, we need to understand your
+practices and activities towards the creation and management of persistent
+identifiers. Easier access to cultural heritage data, interoperability within
+and beyond the data space, discovery and reuse of cultural heritage data
+depend on it!&lt;/p&gt;
+
+&lt;p&gt;If you work in the technical or operational teams of a cultural heritage
+institution, and know how your institution manages identifiers for digitised
+objects, or if you are running an aggregation service, we invite you to take
+approximately 15 minutes to answer our survey. Please also share it with other
+colleagues that are most involved in this work.&lt;/p&gt;
+
+&lt;p&gt;The deadline for survey responses is &lt;strong&gt;30 June 2023&lt;/strong&gt;. Thank you in advance
+for your participation!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://survey.zohopublic.com/zs/CCCNrf&quot;&gt;&lt;strong&gt;TAKE THE SURVEY&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;visible_name&quot;=&gt;&quot;Hugo Manguinhas&quot;, &quot;url&quot;=&gt;nil, &quot;name&quot;=&gt;nil, &quot;info&quot;=&gt;nil}</name></author><summary type="html">Europeana Foundation seeks input through a survey to enhance persistent identifier practices in cultural heritage, ensuring data accessibility and interoperability in a common European data space.</summary></entry><entry><title type="html">ARKs added to new version of the PID Guide</title><link href="https://arks-org.github.io/arks.github.io/news/2023-05-31-arks-added-to-new-version-of-the-pid-guide/" rel="alternate" type="text/html" title="ARKs added to new version of the PID Guide" /><published>2023-05-31T13:41:11+00:00</published><updated>2023-05-31T13:41:11+00:00</updated><id>https://arks-org.github.io/arks.github.io/news/arks-added-to-new-version-of-the-pid-guide</id><content type="html" xml:base="https://arks-org.github.io/arks.github.io/news/2023-05-31-arks-added-to-new-version-of-the-pid-guide/">&lt;p&gt;The PID Guide, an interactive resource by the National Archives of the
+Netherlands, now includes ARKs, DOIs, Handles, and URNs to aid organizations
+worldwide in selecting suitable Persistent Identifier systems for their needs.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;It is not always easy for organizations to understand and choose an
+appropriate Persistent Identifier (PID) system. PIDs such as ARKs, DOIs,
+Handles, and URNs can come with subtle tradeoffs that depend on each
+organization’s needs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2023-05-31-arks-added-to-new-version-of-the-pid-guide/pidwijzer.png&quot; alt=&quot;Screen shot of first questions of the PID guide.&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;high&quot; height=&quot;451&quot; loading=&quot;eager&quot; width=&quot;715&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The PID Guide helps you learn and think about important PID topics, and guides
+your first steps towards selecting a PID system.&lt;/p&gt;
+
+&lt;p&gt;Thus the PID Guide at &lt;a href=&quot;https://www.pidwijzer.nl/en/&quot;&gt;pidwijzer.nl&lt;/a&gt; was created as a free, interactive
+service to help people learn and think about important PID topics, and to
+guide their first steps in selecting a PID system. The digital preservation
+team of the National Archives of the Netherlands maintains the guide, and in
+April 2023 we were pleased to announce a new version, which now includes ARK,
+DataCite DOI, Handle System and URN:NBN.&lt;/p&gt;
+
+&lt;p&gt;The PID Guide was originally created by the Dutch Digital Heritage Network
+(DDHN). In developing the new version, we are grateful for the help of
+colleagues from the ARK Alliance, TU Delft Library (DataCite Netherlands),
+SURF, KB national library, DANS (Data Archiving and Networked Services) and
+DDHN.&lt;/p&gt;
+
+&lt;p&gt;The term “PID-wijzer” is a nod to “stemwijzer”, a sort of Dutch voting
+compass, and the term “wijzer” is a Dutch word (which sounds a bit like
+“visor”) meaning one who points, directs, or indicates. Although intended for
+Dutch heritage organizations, the &lt;a href=&quot;https://www.pidwijzer.nl/en/&quot;&gt;pidwijzer.nl&lt;/a&gt; service may be useful to
+organizations all over the world. On the other hand, because our hosted
+instance is tailored to the Dutch situation, there is also a &lt;a href=&quot;https://www.pidwijzer.nl/en/pid-guide-methodology&quot;&gt;PID Guide
+Toolkit&lt;/a&gt;, which can be used to create independent instances of the interactive
+guide adapted to different contexts and use cases.&lt;/p&gt;</content><author><name>{&quot;visible_name&quot;=&gt;&quot;Remco van Veenendaal&quot;, &quot;url&quot;=&gt;nil, &quot;name&quot;=&gt;nil, &quot;info&quot;=&gt;nil}</name></author><summary type="html">The PID Guide, an interactive resource by the National Archives of the Netherlands, now includes ARKs, DOIs, Handles, and URNs to aid organizations worldwide in selecting suitable Persistent Identifier systems for their needs.</summary></entry><entry><title type="html">Wrapping up 2022 with over 1000 ARK organizations</title><link href="https://arks-org.github.io/arks.github.io/news/2022-12-14-wrapping-up-2022-with-over-1000-ark-organizations/" rel="alternate" type="text/html" title="Wrapping up 2022 with over 1000 ARK organizations" /><published>2022-12-14T02:31:19+00:00</published><updated>2022-12-14T02:31:19+00:00</updated><id>https://arks-org.github.io/arks.github.io/news/wrapping-up-2022-with-over-1000-ark-organizations</id><content type="html" xml:base="https://arks-org.github.io/arks.github.io/news/2022-12-14-wrapping-up-2022-with-over-1000-ark-organizations/">&lt;p&gt;In 2022, the ARK Alliance achieved significant milestones, surpassing 1000
+registered ARK organizations, enhancing the ARK specification, and expanding
+collaborations, reaffirming its commitment to facilitating persistent
+identifier management and interoperability among institutions.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2022-12-14-wrapping-up-2022-with-over-1000-ark-organizations/naan_growth_2022.png&quot; alt=&quot;&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;high&quot; height=&quot;480&quot; loading=&quot;eager&quot; width=&quot;640&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2022-12-14-wrapping-up-2022-with-over-1000-ark-organizations/image-2048x845.png&quot; alt=&quot;&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;high&quot; height=&quot;172&quot; loading=&quot;eager&quot; width=&quot;417&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Distribution of 1000+ ARK organizations.&lt;/p&gt;
+
+&lt;p&gt;2022 has proven to be another banner year for the ARK Alliance. Some
+highlights:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We were thrilled in October this year to witness registration of the
+1000th ARK organization, only 8 months after registration of the 900th
+organization.&lt;/li&gt;
+  &lt;li&gt;It was a delight to welcome Donny Winston (Polyneme LLC), John Jung
+(University of Chicago), and Chloé Pochon (French National Institute of
+Art History) to the ARK Alliance working groups.&lt;/li&gt;
+  &lt;li&gt;The ARK specification has been converted from the classic XML/RFC format
+to a much more streamlined Markdown/RFC format.&lt;/li&gt;
+  &lt;li&gt;Our pre-conference proposal for a 3-hour ARK training session was accepted
+as part of &lt;a href=&quot;https://2023.code4lib.org/&quot;&gt;Code4Lib 2023&lt;/a&gt;, and will take place Tuesday, March 14, 2023 at
+Princeton University.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is a snapshot of the ARK community since the Feb 2022 update.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Organizations registered to assign ARKs: 1027 (+120)&lt;/li&gt;
+  &lt;li&gt;Known number of ARKs in the world: 8.2 billion&lt;/li&gt;
+  &lt;li&gt;Amount paid for the right to create ARKs: $0&lt;/li&gt;
+  &lt;li&gt;Average resolutions per month by N2T.net: 3,737,359&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is a list of the 120 institutions that registered to assign ARKs since
+2022-02-22, in the order that they arrived.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Universidad Nacional de La Plata&lt;/li&gt;
+  &lt;li&gt;The Canadian Open Neuroscience Platform&lt;/li&gt;
+  &lt;li&gt;Computer science department of the University of Neuchâtel, Switzerland&lt;/li&gt;
+  &lt;li&gt;Universidad del Zulia&lt;/li&gt;
+  &lt;li&gt;Bibliothèque de l’EnsAD revue décor&lt;/li&gt;
+  &lt;li&gt;be. my media&lt;/li&gt;
+  &lt;li&gt;Royal Birmingham Conservatoire, Birmingham City University&lt;/li&gt;
+  &lt;li&gt;RERO+ Foundation&lt;/li&gt;
+  &lt;li&gt;Archéologie et Philologie d’Orient et d’Occident&lt;/li&gt;
+  &lt;li&gt;Site et Musée romains d’Avenches&lt;/li&gt;
+  &lt;li&gt;Escritos de filosofía&lt;/li&gt;
+  &lt;li&gt;Auroville Archives&lt;/li&gt;
+  &lt;li&gt;International Journal of Business and Management&lt;/li&gt;
+  &lt;li&gt;Orientoi&lt;/li&gt;
+  &lt;li&gt;Le château, le musée et le domaine national de Versailles&lt;/li&gt;
+  &lt;li&gt;Arbetarrörelsens arkiv och bibliotek&lt;/li&gt;
+  &lt;li&gt;African Scientific Journal&lt;/li&gt;
+  &lt;li&gt;Rey Desnudo&lt;/li&gt;
+  &lt;li&gt;Archives régionales Provence-Alpes-Côte d’Azur&lt;/li&gt;
+  &lt;li&gt;Eirene Estudios de Paz y Conflictos&lt;/li&gt;
+  &lt;li&gt;Sprin Publisher&lt;/li&gt;
+  &lt;li&gt;TACIT Rennes 2&lt;/li&gt;
+  &lt;li&gt;ARÉN Éducation&lt;/li&gt;
+  &lt;li&gt;Canadian Open Neuroscience Platform – Portal&lt;/li&gt;
+  &lt;li&gt;Botanical Research Institute of Texas&lt;/li&gt;
+  &lt;li&gt;Coral Publications, Coral Research and Education Systems (SMC-PVT) Ltd.&lt;/li&gt;
+  &lt;li&gt;Revista Mexicana de Fisioterapia&lt;/li&gt;
+  &lt;li&gt;Participatory Image Archives&lt;/li&gt;
+  &lt;li&gt;MagikEduk&lt;/li&gt;
+  &lt;li&gt;AND&lt;/li&gt;
+  &lt;li&gt;International Consortium of Academic Professionals for Scientific Research&lt;/li&gt;
+  &lt;li&gt;Coding Park&lt;/li&gt;
+  &lt;li&gt;Association v.ideaux&lt;/li&gt;
+  &lt;li&gt;International Journal of Engineering and Applied Physics&lt;/li&gt;
+  &lt;li&gt;Frontiers in Tropical Diseases and Medicine&lt;/li&gt;
+  &lt;li&gt;Revista Tecnológica-Educativa Docentes 2.0&lt;/li&gt;
+  &lt;li&gt;Robotel Inc.&lt;/li&gt;
+  &lt;li&gt;Musée cantonal d’archéologie et d’histoire&lt;/li&gt;
+  &lt;li&gt;Journal of Neurophilosophy&lt;/li&gt;
+  &lt;li&gt;Le Mans université&lt;/li&gt;
+  &lt;li&gt;Wozavez&lt;/li&gt;
+  &lt;li&gt;Centro de Documentación e Información Educativa. Anuario de Bibliotecas,
+Archivos y Museos Escolares&lt;/li&gt;
+  &lt;li&gt;Université des Sciences et de la Technologie d’Oran Mohamed Boudiaf&lt;/li&gt;
+  &lt;li&gt;Always Been Project Archive&lt;/li&gt;
+  &lt;li&gt;Archives patrimoniales d’Angers&lt;/li&gt;
+  &lt;li&gt;Médiathèque Georges Brassens de Maizières-lès-Metz&lt;/li&gt;
+  &lt;li&gt;The Journal of Quality in Education&lt;/li&gt;
+  &lt;li&gt;Revista Información Científica (RIC)&lt;/li&gt;
+  &lt;li&gt;Delft High Performance Computing Centre&lt;/li&gt;
+  &lt;li&gt;Consejo de Regulación, Desarrollo y Promoción de la Información y
+Comunicación&lt;/li&gt;
+  &lt;li&gt;National Library of Greece&lt;/li&gt;
+  &lt;li&gt;Brazilian Institute of Information in Science and Technology&lt;/li&gt;
+  &lt;li&gt;Reincisol&lt;/li&gt;
+  &lt;li&gt;CREADOC&lt;/li&gt;
+  &lt;li&gt;Asian Accounting and Auditing Advancement&lt;/li&gt;
+  &lt;li&gt;AFT Transport Logistique&lt;/li&gt;
+  &lt;li&gt;Peter Weiss Haus e.V.&lt;/li&gt;
+  &lt;li&gt;Tulane University Biodiversity Research Institute&lt;/li&gt;
+  &lt;li&gt;Bibliothèque de l’Institut Henri Poincaré&lt;/li&gt;
+  &lt;li&gt;Comédie-Française&lt;/li&gt;
+  &lt;li&gt;MyCow&lt;/li&gt;
+  &lt;li&gt;Tri-College Consortium&lt;/li&gt;
+  &lt;li&gt;digiSchool&lt;/li&gt;
+  &lt;li&gt;Wildi&lt;/li&gt;
+  &lt;li&gt;Musée des Plans-Reliefs&lt;/li&gt;
+  &lt;li&gt;International Journal of Toxicological and Pharmacological
+ResearchArchives départementales de Seine-et-Marne&lt;/li&gt;
+  &lt;li&gt;Musée national et domaine du château de Pau&lt;/li&gt;
+  &lt;li&gt;Hospices Civils de Lyon&lt;/li&gt;
+  &lt;li&gt;Corneille&lt;/li&gt;
+  &lt;li&gt;Wisconsin Historical Society&lt;/li&gt;
+  &lt;li&gt;Centro Universitário UniProcessus&lt;/li&gt;
+  &lt;li&gt;Revista JRG de Estudos Acadêmicos&lt;/li&gt;
+  &lt;li&gt;Revista Processus Multidisciplinar&lt;/li&gt;
+  &lt;li&gt;Cadernos do FNDE&lt;/li&gt;
+  &lt;li&gt;Consejo Profesional de Arquitectura y Urbanismo&lt;/li&gt;
+  &lt;li&gt;Revista Social Fronteriza&lt;/li&gt;
+  &lt;li&gt;Georgian Integrated Library Information System Consortium&lt;/li&gt;
+  &lt;li&gt;Berklee Archives&lt;/li&gt;
+  &lt;li&gt;The SFU Computational Sustainability Lab&lt;/li&gt;
+  &lt;li&gt;University of Hawai’i at Mānoa Library&lt;/li&gt;
+  &lt;li&gt;Musée de Cluny – Musée national du Moyen Âge&lt;/li&gt;
+  &lt;li&gt;Organization for Social Development and Research Publications&lt;/li&gt;
+  &lt;li&gt;DAYLINDO&lt;/li&gt;
+  &lt;li&gt;National Library of Tunisia&lt;/li&gt;
+  &lt;li&gt;RedFrogBros&lt;/li&gt;
+  &lt;li&gt;Salud, Ciencia y Tecnología&lt;/li&gt;
+  &lt;li&gt;Indian Journal of Advances in Science Engineering and Technology&lt;/li&gt;
+  &lt;li&gt;Revista Coleta Científica&lt;/li&gt;
+  &lt;li&gt;iizenglish&lt;/li&gt;
+  &lt;li&gt;Vyom Hans Journals&lt;/li&gt;
+  &lt;li&gt;MetaBiblioteca&lt;/li&gt;
+  &lt;li&gt;Laboratoire de recherche historique Rhône-Alpes&lt;/li&gt;
+  &lt;li&gt;Archives Alsace – Colmar&lt;/li&gt;
+  &lt;li&gt;Académie de Créteil&lt;/li&gt;
+  &lt;li&gt;jeuxandco&lt;/li&gt;
+  &lt;li&gt;Musée de Feurs&lt;/li&gt;
+  &lt;li&gt;African Journal of Commercial Studies&lt;/li&gt;
+  &lt;li&gt;KOKORO lingua SA&lt;/li&gt;
+  &lt;li&gt;Immutable Access&lt;/li&gt;
+  &lt;li&gt;Archives de Fontenay-sous-Bois&lt;/li&gt;
+  &lt;li&gt;Archaeological archives&lt;/li&gt;
+  &lt;li&gt;Archives municipales d’Alençon&lt;/li&gt;
+  &lt;li&gt;Rasayely&lt;/li&gt;
+  &lt;li&gt;Studi Veronesi&lt;/li&gt;
+  &lt;li&gt;Ecole française d’Athènes&lt;/li&gt;
+  &lt;li&gt;Maastricht University Library&lt;/li&gt;
+  &lt;li&gt;Ecomusée Fresnes / Grand-Orly Seine Bièvre&lt;/li&gt;
+  &lt;li&gt;Bibliothèque littéraire Jacques Doucet&lt;/li&gt;
+  &lt;li&gt;Bulsac&lt;/li&gt;
+  &lt;li&gt;University of Rouen Normandie Libraries&lt;/li&gt;
+  &lt;li&gt;Revista Pares&lt;/li&gt;
+  &lt;li&gt;Editora Cultura e Informação&lt;/li&gt;
+  &lt;li&gt;Research Ambition – An International Multidisciplinary e-Journal&lt;/li&gt;
+  &lt;li&gt;Legal Research Development&lt;/li&gt;
+  &lt;li&gt;Jai Maa Saraswati Gyandayni – An International Multidisciplinary e-Journal&lt;/li&gt;
+  &lt;li&gt;The Creative Launcher&lt;/li&gt;
+  &lt;li&gt;Texas Instruments France&lt;/li&gt;
+  &lt;li&gt;Archives de Thonon-les-Bains&lt;/li&gt;
+  &lt;li&gt;Direction régionale des affaires culturelles de Bretagne – service
+régional d’archéologie&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>arks_org</name></author><summary type="html">In 2022, the ARK Alliance achieved significant milestones, surpassing 1000 registered ARK organizations, enhancing the ARK specification, and expanding collaborations, reaffirming its commitment to facilitating persistent identifier management and interoperability among institutions.</summary></entry><entry><title type="html">Images and the promise of ARKs with IIIF</title><link href="https://arks-org.github.io/arks.github.io/news/2022-11-23-images-and-the-promise-of-arks-with-iiif/" rel="alternate" type="text/html" title="Images and the promise of ARKs with IIIF" /><published>2022-11-23T20:19:11+00:00</published><updated>2022-11-23T20:19:11+00:00</updated><id>https://arks-org.github.io/arks.github.io/news/images-and-the-promise-of-arks-with-iiif</id><content type="html" xml:base="https://arks-org.github.io/arks.github.io/news/2022-11-23-images-and-the-promise-of-arks-with-iiif/">&lt;p&gt;The integration of ARKs with the International Image Interoperability
+Framework (IIIF) enables standardized access to digital image collections,
+enhancing collaboration and interoperability among cultural heritage
+institutions.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Digital images hold critical, compelling scholarly and scientific information.
+Unlocking their value, however, can be expensive. High-quality image object
+files are large and complex, and usually come with special storage and network
+requirements. Advanced software systems are needed for manipulation, zoom,
+search, display, description, and annotation, and they are often custom-built
+to work with local object servers. Of course, having persistent identifiers,
+such as ARKs, for image objects helps protect the large investment needed to
+create this sophisticated infrastructure.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This embedded &lt;a href=&quot;https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449691v/manifest.json&quot;&gt;interactive figure&lt;/a&gt; lets you page and zoom in a medieval
+manuscript from the BnF (French National Library) thanks to the open-source,
+IIIF &lt;a href=&quot;https://universalviewer.io/&quot;&gt;Universal Viewer&lt;/a&gt; software.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Only well funded efforts can create sophisticated systems, customized to work
+with just one or a few repositories. But what if all organizations used the
+same access methods across their image servers? Then participating servers
+could share much of the same software, which would only need to be built once.
+Establishing standard access methods to unlock the value of open image
+collections across a large number of servers is a goal of “IIIF”.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-iiif&quot;&gt;&lt;strong&gt;What is IIIF?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2022-11-23-images-and-the-promise-of-arks-with-iiif/IIIF-logo-500w.png&quot; alt=&quot;IIIF Logo&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;high&quot; height=&quot;500&quot; loading=&quot;eager&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://iiif.io&quot;&gt;International Image Interoperability Framework&lt;/a&gt; (IIIF – pronounced
+“&lt;em&gt;triple-eye-eff&lt;/em&gt;“) is a community-driven initiative that has defined six open
+application programming interfaces (APIs).&lt;/p&gt;
+
+&lt;p&gt;The APIs provide a rich set of ways to describe, request, and deliver most
+image-based content on the Web. The idea is that the more repositories adopt
+the IIIF APIs, the more software developers and vendors will be incentivized
+to create IIIF-compliant systems. The result will be affordable full-featured
+systems that work across a large and diverse set of image servers.&lt;/p&gt;
+
+&lt;p&gt;One cross-server use of IIIF is the &lt;a href=&quot;https://demos.biblissima.fr/chateauroux/&quot;&gt;virtual reconstruction demo&lt;/a&gt; of a volume
+from the Châteauroux Municipal Library that was created in 1460. The
+IIIF-compliant &lt;a href=&quot;https://projectmirador.org/&quot;&gt;Mirador&lt;/a&gt; viewer uses hyperlinks to “fill holes in pages” where
+illustrations had once been cut out but were later found in various external
+collections.&lt;/p&gt;
+
+&lt;p&gt;The IIIF-compliant Mirador viewer for virtual reconstruction, using hyperlinks
+to “fill holes in pages” where illustrations had been cut out but later found
+in various external collections.&lt;/p&gt;
+
+&lt;p&gt;This “reunification” demo was borrowed from the &lt;a href=&quot;https://www.youtube.com/watch?v=K4i7YlZEMGA&quot;&gt;Introduction to IIIF video&lt;/a&gt;.
+It highlights a core aim of IIIF, which is to break down institutional silos
+that discourage content sharing across collections. Such sharing becomes all
+the more valuable the more that hyperlinks to internal and external
+institutional image servers are stable. Enter persistent identifiers.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-iiif-api-expressed-via-identifiers&quot;&gt;&lt;strong&gt;The IIIF API expressed via identifiers&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;While IIIF recommends no particular persistent identifier for linking to
+web-accessible content, they mention ARKs and persistence. In particular, the
+&lt;a href=&quot;https://iiif.io/api/image/&quot;&gt;IIIF image API&lt;/a&gt; says that an image identifier “may be an ARK, URN, filename,
+or other identifier.” Also, the &lt;a href=&quot;https://iiif.io/api/presentation/&quot;&gt;IIIF presentation API&lt;/a&gt; says that once URIs
+for web-based resources are published, “they should be as persistent and
+unchanging as possible.”&lt;/p&gt;
+
+&lt;p&gt;In IIIF the base image identifier is a URI with defined path extensions to
+hold API parameters. The parameters are used to request such things as region,
+size, quality, and format. For example, this IIIF-compliant URI&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449691v/f29/2131,4016,1467,948/full/0/default.jpg&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gallica.bnf.fr/iiif/ark:%2F12148%2Fbtv1b8449691v%2Ff29/2131,4016,1467,948/full/0/default.jpg&quot;&gt;https://gallica.bnf.fr/iiif/ark:%2F12148%2Fbtv1b8449691v%2Ff29/2131,4016,1467,948/full/0/default.jpg&lt;/a&gt;
+(the ark:/ and the identifier have been URI percent-encoded per the IIIF
+specification, see Comments below)&lt;/p&gt;
+
+&lt;p&gt;requests the return of a specific rectangular region “2131,4016,1467,948”, at
+full quality and in the JPEG (“.jpg”) format. This region is shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2022-11-23-images-and-the-promise-of-arks-with-iiif/ark_iiif.jpg&quot; alt=&quot;&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;&quot; height=&quot;662&quot; loading=&quot;lazy&quot; width=&quot;1024&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A rectangular detail region of interest (coordinates 2131,4016,1467,948)
+requested via IIIF-compliant path elements (parameters) from a manuscript held
+at the BnF.&lt;/p&gt;
+
+&lt;p&gt;Image content is often hierarchical, so we need identifiers at more than one
+level. For example, a bound manuscript is a compound object consisting of page
+objects. The IIIF model allows for multiple image “canvas” objects under a
+top-level “manifest” object (covered in the &lt;a href=&quot;https://iiif.io/api/presentation/&quot;&gt;IIIF presentation API&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;congruence-of-ark-extensions-and-iiif-paths&quot;&gt;&lt;strong&gt;Congruence of ARK extensions and IIIF paths&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;ARK suffixes (extensions), which are used to refer to sub-objects in a
+hierarchy and to variant formats, are a natural fit for IIIF, with its API
+parameters expressed as path extensions.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;        Resolver Service            Compact ARK
+       __________________  _______________________________
+      /                  \/                               \
+      https://example.org/ark:/12345/x6np1wh8k/c3/s5.v7.xsl
+      \____________________________/\________/\___________/
+                   Prefixes          Base Name   Suffixes
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Moreover, because ARKs permit &lt;a href=&quot;https://n2t.net/e/suffix_passthrough.html&quot;&gt;suffix passthrough&lt;/a&gt;, it is possible to register
+just the top-level resolvable ARK to support an infinite number of resolvable
+suffix combinations without having to register each extension.&lt;/p&gt;
+
+&lt;p&gt;While combining ARKs with IIIF holds great promise, there are currently no
+widely adopted recommendations for using them together. Meanwhile, it should
+be safe to follow the &lt;a href=&quot;https://iiif.io/api/image/3.0/#2-uri-syntax&quot;&gt;URI Syntax of the IIIF Image API&lt;/a&gt; and the &lt;a href=&quot;https://datatracker.ietf.org/doc/draft-kunze-ark/&quot;&gt;current ARK
+specification&lt;/a&gt;. The table below shows more of the parallelism.&lt;/p&gt;
+
+&lt;div class=&quot;table-responsive&quot;&gt;
+&lt;table class=&quot;table table-hover table-striped&quot;&gt;
+&lt;tr&gt;
+&lt;th&gt;ARK&lt;/th&gt;
+&lt;td&gt;https://{NMA}/ark:/{NAAN}/{name}/{qualifiers}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;IIIF image API request&lt;/th&gt;
+&lt;td&gt;{scheme}://{server}{/prefix}/&lt;br /&gt;
+{identifier}/{region}/{size}/{rotation}/{quality}.{format}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;IIIF image API information&lt;/th&gt;
+&lt;td&gt;{scheme}://{server}{/prefix}/{identifier}/info.json&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;IIIF presentation API (manifest)&lt;/th&gt;
+&lt;td&gt;{scheme}://{host}/{prefix}/{identifier}/manifest.json&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;ARK+IIIF example 1 (manifest)&lt;/th&gt;
+&lt;td&gt;https://example.org/iiif/ark:%2F{NAAN}%2F{objID}/manifest.json&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;ARK+IIIF example 2 (image)&lt;/th&gt;
+&lt;td&gt;https://example.org/iiif/ark:%2F{NAAN}%2F{imgID}/full/max/0/default.jpg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The ARK Anatomy and the IIIF URI Syntax Recommendations&lt;/p&gt;
+
+&lt;h2 id=&quot;arks-and-iiif-in-practice&quot;&gt;&lt;strong&gt;ARKs and IIIF in practice&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Many organizations use the ARK and IIIF specifications, sometimes in
+conjunction. Examples include the BnF (French National Library), the British
+Library, Durham University Library, the Smithsonian Institution, and the
+University of North Texas Libraries. The application of ARKs within a IIIF
+ecosystem goes beyond the Image and Presentation APIs. One can imagine minting
+ARKs in context of other IIIF specifications, or using ARKs to redirect users
+to various tools and clients.&lt;/p&gt;
+
+&lt;p&gt;Some real world experiences from practitioners in the IIIF and ARK communities
+have been shared in the recorded webinar “&lt;a href=&quot;https://tanc-ahrc.github.io/IIIF-TNC/seminar02.html&quot;&gt;Persistent identifiers in IIIF&lt;/a&gt;”
+(organized on 26 October 2021 by the Practical Applications of IIIF and
+Heritage PIDs projects, both foundation projects in the Towards a National
+Collection (TANC) programme in the UK).&lt;/p&gt;
+
+&lt;p&gt;It was an occasion to present the benefits of using ARKs and IIIF resources
+for the cultural heritage institutions. Neither has any (direct) fees and both
+are highly flexible in terms of descriptive metadata. A case can be made that
+they make persistence and interoperability practicable and affordable for
+cultural heritage institutions.&lt;/p&gt;
+
+&lt;p&gt;Below are more links that could be interesting to people who want to implement
+ARKs and IIIF.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Ben Brumfield, Sara Brumfield, Andy Irving, Rachael Kotarski, Joseph Padfield,
+Julien A. Raemy, Anne McLaughlin, &amp;amp; Frances Madden. (2021). PIDs in IIIF
+Webinar. Persistent Identifiers in IIIF.
+&lt;a href=&quot;https://doi.org/10.5281/zenodo.5780055&quot;&gt;https://doi.org/10.5281/zenodo.5780055&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Julien A. Raemy, &amp;amp; René Schneider. (2019). Suggested measures for deploying
+IIIF in Swiss cultural heritage institutions (White paper) (1.0). HES-SO
+University of Applied Sciences and Arts, Haute école de gestion de Genève.
+&lt;a href=&quot;https://doi.org/10.5281/zenodo.2640416&quot;&gt;https://doi.org/10.5281/zenodo.2640416&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2021 IIIF Conference presentation by Modou Dia (Pleade) – “&lt;em&gt;Association of
+IIIF and ARK Protocols&lt;/em&gt;”: &lt;a href=&quot;https://www.youtube.com/watch?v=oFlicS5f8HA&quot;&gt;https://www.youtube.com/watch?v=oFlicS5f8HA&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Durham University Library:
+&lt;a href=&quot;https://www.durhampriory.ac.uk/about-the-project/technology/ark-urls/&quot;&gt;https://www.durhampriory.ac.uk/about-the-project/technology/ark-urls/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;French National Library (BnF):
+&lt;a href=&quot;https://api.bnf.fr/api-iiif-de-recuperation-des-images-de-gallica&quot;&gt;https://api.bnf.fr/api-iiif-de-recuperation-des-images-de-gallica&lt;/a&gt; (in
+French)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;John Kunze, Julien A. Raemy, and Richard Higgins (Durham University
+Library) presented on the topic of ARK and IIIF at the IIIF Community Call
+on January 25, 2023 which was recorded.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>{&quot;visible_name&quot;=&gt;&quot;Julien A. Raemy&quot;, &quot;url&quot;=&gt;nil, &quot;name&quot;=&gt;nil, &quot;info&quot;=&gt;&quot;Julien A. Raemy is an Assistant and PhD Candidate in Digital Humanities at the University of Basel, Switzerland. He works as well as Interoperability Specialist for DaSCH, the Swiss National Data and Service Center for the Humanities. He holds a MSc in Information Science from the Haute école de gestion de Genève (Geneva, Switzerland). He is particularly interested in ways of improving the digital preservation, dissemination and interoperability of cultural heritage objects and their associated metadata through the application of Linked Open (Usable) Data. Julien A. Raemy also investigates digital practices from the perspective of Science and Technology Studies, especially through the lens of the Actor-Network Theory.&quot;}</name></author><summary type="html">The integration of ARKs with the International Image Interoperability Framework (IIIF) enables standardized access to digital image collections, enhancing collaboration and interoperability among cultural heritage institutions.</summary></entry><entry><title type="html">New “ARKs-Service” from the University of Toronto Scarborough Library</title><link href="https://arks-org.github.io/arks.github.io/news/2022-11-17-new-arks-service-from-the-university-of-toronto-scarborough-library/" rel="alternate" type="text/html" title="New “ARKs-Service” from the University of Toronto Scarborough Library" /><published>2022-11-17T23:54:38+00:00</published><updated>2022-11-17T23:54:38+00:00</updated><id>https://arks-org.github.io/arks.github.io/news/new-arks-service-from-the-university-of-toronto-scarborough-library</id><content type="html" xml:base="https://arks-org.github.io/arks.github.io/news/2022-11-17-new-arks-service-from-the-university-of-toronto-scarborough-library/">&lt;p&gt;The University of Toronto Scarborough Library’s “ARKs-Service” is a
+user-friendly app for smaller libraries to manage persistent identifiers,
+simplifying ARK minting and management.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;How can smaller library shops mint and resolve persistent identifiers? A new
+self-hosted application called “ARKs-Service” is a user interface designed to
+help those with fewer dedicated IT resources to set up their own persistent
+identifier management service. ARKs-Service is developed and maintained at the
+University of Toronto Scarborough Library’s &lt;a href=&quot;https://digital.utsc.utoronto.ca/&quot;&gt;Digital Scholarship Unit (DSU)&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images//posts/2022-11-17-new-arks-service-from-the-university-of-toronto-scarborough-library/lake_harbour.png&quot; alt=&quot;&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;high&quot; height=&quot;712&quot; loading=&quot;eager&quot; width=&quot;928&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Scarborough (Toronto) artist Doris McCarthy’s painting, “Lake Harbour in Late
+Light,”available at ARK:
+&lt;a href=&quot;https://ark.digital.utsc.utoronto.ca/ark:/61220/utsc11251&quot; class=&quot;text-break&quot;&gt;https://ark.digital.utsc.utoronto.ca/ark:/61220/utsc11251&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The DSU maintains digital special collections using &lt;a href=&quot;https://www.islandora.ca/&quot;&gt;Islandora,&lt;/a&gt; an
+open-source digital asset management platform that utilizes multiple Drupal
+sites for collaborative authoring, discovery, and display.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images//posts/2022-11-17-new-arks-service-from-the-university-of-toronto-scarborough-library/gazebo_trees.png&quot; alt=&quot;&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;&quot; height=&quot;807&quot; loading=&quot;lazy&quot; width=&quot;1024&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;McCarthy’s “Reflection of the gazebo and trees,” available at ARK:
+&lt;a href=&quot;https://ark.digital.utsc.utoronto.ca/ark:/61220/utsc11216&quot; class=&quot;text-break&quot;&gt;https://ark.digital.utsc.utoronto.ca/ark:/61220/utsc11216&lt;/a&gt; (also
+&lt;a href=&quot;https://n2t.net/ark:/61220/utsc11216&quot;&gt;https://n2t.net/ark:/61220/utsc11216&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;When looking for a persistent identifier solution, ARKs jumped to the top of
+the list as a feature-rich, cost-effective solution. Their support for early
+object development was particularly attractive, streamlining internal
+processes for digital objects that are often touched by multiple internal
+stakeholders before being published online.&lt;/p&gt;
+
+&lt;p&gt;The DSU sought a generalized solution for ARK minting and binding with a user
+interface that allowed the librarians in the unit to “self serve” ARKs, update
+their bindings to new locations, and see how frequently ARKs were being used.&lt;/p&gt;
+
+&lt;p&gt;ARKs-Service is a standalone PHP application adopting &lt;a href=&quot;https://github.com/AkioUnity/Noid4Php&quot;&gt;the work of Akio
+Sensei&lt;/a&gt; who has integrated a MySQL database into &lt;a href=&quot;https://github.com/Daniel-KM/Noid4Php&quot;&gt;Noid4PHP&lt;/a&gt; by Daniel
+Berthereau. The application can be demoed using its Ansible Playbook and lets
+users mint ARKs, and bind their server locations, as well as append a flexible
+set of metadata (defined and extensible through a spreadsheet). ARKs-Service
+supports both the older and new ARK specification, and the DSU plans for
+future enhancements such as the inclusion of persistence statements.&lt;/p&gt;
+
+&lt;p&gt;Videos and documentation for deployment and use, as well as the open source
+codebase (BSD 2-Clause License), are available at
+&lt;a href=&quot;https://github.com/digitalutsc/arks-service&quot; class=&quot;text-break&quot;&gt;https://github.com/digitalutsc/arks-service&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can read more about the ARKs-Service application in the Code4lib article
+at &lt;a href=&quot;https://journal.code4lib.org/articles/16774&quot; class=&quot;text-break&quot;&gt;https://journal.code4lib.org/articles/16774&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Github pull requests and issues are welcomed! Potential collaborators and
+users can also reach out at &lt;a href=&quot;mailto:dsu.utsc@utoronto.ca&quot;&gt;dsu.utsc@utoronto.ca&lt;/a&gt;.&lt;/p&gt;</content><author><name>{&quot;visible_name&quot;=&gt;&quot;Kirsta Stapelfeldt&quot;, &quot;url&quot;=&gt;nil, &quot;name&quot;=&gt;nil, &quot;info&quot;=&gt;nil}</name></author><summary type="html">The University of Toronto Scarborough Library’s “ARKs-Service” is a user-friendly app for smaller libraries to manage persistent identifiers, simplifying ARK minting and management.</summary></entry><entry><title type="html">Upcoming changes to the ARK specification</title><link href="https://arks-org.github.io/arks.github.io/news/2022-03-18-upcoming-changes-to-the-ark-specification/" rel="alternate" type="text/html" title="Upcoming changes to the ARK specification" /><published>2022-03-18T20:07:27+00:00</published><updated>2022-03-18T20:07:27+00:00</updated><id>https://arks-org.github.io/arks.github.io/news/upcoming-changes-to-the-ark-specification</id><content type="html" xml:base="https://arks-org.github.io/arks.github.io/news/2022-03-18-upcoming-changes-to-the-ark-specification/">&lt;p&gt;The ARK Alliance’s Outreach and Technical Working Groups will develop a
+community plan to transition from the older 2013 ARK spec to the current
+2022 ARK spec.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Since 2019 the ARK Alliance (then known as ARKs-in-the-Open) has been
+reviewing the ARK specification (“spec”) in light of the &lt;a href=&quot;https://wiki.lyrasis.org/pages/viewpage.action?pageId=112525432&quot;&gt;ARK Experts Day
+recommendations&lt;/a&gt; coming from the 2018 ARK Summit in Paris. Accordingly, the
+latest ARK spec contains minor changes, all of which are backwards compatible
+and therefore won’t disrupt the functioning of any previously published ARKs.
+The most visible change is that implementers will soon be encouraged to
+publish new ARKs with just “ark:” instead of “ark:/”. For example,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Old recommendation &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://n2t.net/ark:/12345/x9876&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;New recommendation &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://n2t.net/ark:12345/x9876&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Either form will always be valid, but the new form will become recommended.
+Other small changes include better documentation of current terminology and
+increased flexibility in the way that the ARK Alliance registers new NAANs.&lt;/p&gt;
+
+&lt;p&gt;The overall impact should be minimal, mostly affecting implementations that
+currently need to &lt;em&gt;validate externally produced ARKs.&lt;/em&gt; Note that some
+implementations, such as N2T.net and archive.org, already accept both new- and
+old-form ARKs. Starting immediately, it is safe for any organization to begin
+accepting both forms. Over the long term, organizations that deal with ARKs
+will be expected to accept both forms. Thus all previously published ARKs
+should always be fully supported.&lt;/p&gt;
+
+&lt;p&gt;The ARK Alliance’s &lt;a href=&quot;https://wiki.lyrasis.org/display/ARKs/Outreach+Working+Group&quot;&gt;Outreach&lt;/a&gt; and &lt;a href=&quot;https://wiki.lyrasis.org/display/ARKs/Technical+Working+Group&quot;&gt;Technical&lt;/a&gt; Working Groups will develop a
+community plan to transition from the &lt;a href=&quot;https://datatracker.ietf.org/doc/draft-kunze-ark/18/&quot;&gt;older 2013 ARK spec&lt;/a&gt; to the &lt;a href=&quot;https://datatracker.ietf.org/doc/draft-kunze-ark/&quot;&gt;current
+2022 ARK spec&lt;/a&gt; (if you are interested, here are the &lt;a href=&quot;https://www.ietf.org/rfcdiff?url1=draft-kunze-ark-18.txt&amp;amp;url2=draft-kunze-ark-34.txt&quot;&gt;detailed differences&lt;/a&gt;).
+When it is ready, the transition plan will be publicized via the usual ARK
+Alliance channels.&lt;/p&gt;</content><author><name>arks_org</name></author><summary type="html">The ARK Alliance’s Outreach and Technical Working Groups will develop a community plan to transition from the older 2013 ARK spec to the current 2022 ARK spec.</summary></entry><entry><title type="html">Community update 2022-02-22</title><link href="https://arks-org.github.io/arks.github.io/news/2022-02-22-community-update/" rel="alternate" type="text/html" title="Community update 2022-02-22" /><published>2022-02-22T04:47:00+00:00</published><updated>2022-02-22T04:47:00+00:00</updated><id>https://arks-org.github.io/arks.github.io/news/community-update</id><content type="html" xml:base="https://arks-org.github.io/arks.github.io/news/2022-02-22-community-update/">&lt;p&gt;In February 2022, the ARK community reached 900 registered organizations,
+welcomed a new curator, and got ARK specification accepted for an IETF RFC
+publication.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://n2t.net/e/pub/naan_growth.png&quot; alt=&quot;chart of growth of ARK-assigning organizations since 2001&quot; class=&quot;img-thumbnail img-responsive&quot; height=&quot;191&quot; loading=&quot;lazy&quot; width=&quot;255&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2022-02-22-community-update/image-1.png&quot; alt=&quot;&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;high&quot; height=&quot;454&quot; loading=&quot;eager&quot; width=&quot;1024&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We are excited this month to witness the 900th organization to register to use
+ARKs, and to welcome Romuald Verrier, from the French Ministry of Education,
+as the newest member of the NAAN curator team.&lt;/p&gt;
+
+&lt;p&gt;We are also delighted to announce that the &lt;a href=&quot;https://ietf.org&quot;&gt;IETF&lt;/a&gt;‘s Independent Submissions
+Stream RFC Editor (ISE) has accepted to work on the ARK specification with a
+view to publishing it as an Informational RFC. The ISE’s next task is to
+review the work and then commission some independent reviews. The process from
+there to a published RFC could be between 3 and 6 months.&lt;/p&gt;
+
+&lt;p&gt;Here is an updated snapshot of the ARK community since the 2021 ARK Alliance
+year end wrap up.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Organizations registered to assign ARKs: 907 (+30)&lt;/li&gt;
+  &lt;li&gt;Known number of ARKs in the world: 8.2 billion&lt;/li&gt;
+  &lt;li&gt;Amount paid for the right to create ARKs: $0&lt;/li&gt;
+  &lt;li&gt;Average resolutions per day by N2T.net in 2022: 153,749 (+1,399)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is a list of the 30 institutions that registered to assign ARKs since
+2021-12-16, in the order that they arrived.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Musée Municipal Ducastel-Vera&lt;/li&gt;
+  &lt;li&gt;OpenJustice.be&lt;/li&gt;
+  &lt;li&gt;International Research Journal of Engineering and Applied Sciences&lt;/li&gt;
+  &lt;li&gt;Eerdelogie&lt;/li&gt;
+  &lt;li&gt;Musée d’histoire de Nantes – Château des ducs de Bretagne&lt;/li&gt;
+  &lt;li&gt;Par Cours &amp;amp; Par Thèmes&lt;/li&gt;
+  &lt;li&gt;Programme pédagogique numérique J’apprends l’Energie&lt;/li&gt;
+  &lt;li&gt;Interdisciplinary Center for History, Culture and Societies&lt;/li&gt;
+  &lt;li&gt;Bibliothèque Sainte-Geneviève&lt;/li&gt;
+  &lt;li&gt;Saooti&lt;/li&gt;
+  &lt;li&gt;Lilote&lt;/li&gt;
+  &lt;li&gt;Editora Moan&lt;/li&gt;
+  &lt;li&gt;Archives Communales de Versailles&lt;/li&gt;
+  &lt;li&gt;California Academy of Sciences&lt;/li&gt;
+  &lt;li&gt;Journal of oasis agriculture and sustainable development&lt;/li&gt;
+  &lt;li&gt;Journal of automation and control problems&lt;/li&gt;
+  &lt;li&gt;Hit Save!&lt;/li&gt;
+  &lt;li&gt;Centro de Información y Gestión Tecnológica Guantánamo&lt;/li&gt;
+  &lt;li&gt;Revista Hombre, Ciencia y Tecnología&lt;/li&gt;
+  &lt;li&gt;Beneylu&lt;/li&gt;
+  &lt;li&gt;Vert&lt;/li&gt;
+  &lt;li&gt;EFELE&lt;/li&gt;
+  &lt;li&gt;Musée national des châteaux de Malmaison et Bois-Préau&lt;/li&gt;
+  &lt;li&gt;Archives départementales des Hauts de seine&lt;/li&gt;
+  &lt;li&gt;Archief voor nationale bewegingen&lt;/li&gt;
+  &lt;li&gt;Historial de la Vendée&lt;/li&gt;
+  &lt;li&gt;Journal of Society and Policy&lt;/li&gt;
+  &lt;li&gt;Photo Elysée – Musée cantonal pour la photographie&lt;/li&gt;
+  &lt;li&gt;Musée cantonal des Beaux-Arts de Lausanne&lt;/li&gt;
+  &lt;li&gt;Musée cantonal de Design et d’Arts Appliqués Contemporains&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>AConraux</name></author><summary type="html">In February 2022, the ARK community reached 900 registered organizations, welcomed a new curator, and got ARK specification accepted for an IETF RFC publication.</summary></entry><entry><title type="html">ARK Alliance 2021 wrap up</title><link href="https://arks-org.github.io/arks.github.io/news/2021-12-16-ark-alliance-2021-wrap-up/" rel="alternate" type="text/html" title="ARK Alliance 2021 wrap up" /><published>2021-12-16T03:02:42+00:00</published><updated>2021-12-16T03:02:42+00:00</updated><id>https://arks-org.github.io/arks.github.io/news/ark-alliance-2021-wrap-up</id><content type="html" xml:base="https://arks-org.github.io/arks.github.io/news/2021-12-16-ark-alliance-2021-wrap-up/">&lt;p&gt;In 2021, the ARK community expanded with 187 new institutions, including the
+Louvre and Frick Collection, showcasing ARK’s flexibility and preservation
+commitment.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;With a record 187 new institutions registered in 2021 (up from 113 in 2020),
+it has been another banner year for the ARK community. The &lt;a href=&quot;/arks.github.io/news/2021-03-26-the-louvre-collection-goes-online-with-483000-arks/&quot;&gt;Louvre museum&lt;/a&gt; and
+&lt;a href=&quot;/arks.github.io/news/2021-12-08-the-frick-collection-to-use-arks/&quot;&gt;Frick Collection&lt;/a&gt; joined, a new &lt;a href=&quot;/arks.github.io/news/2021-04-22-announcing-an-ark-plugin-for-open-journal-systems-ojs/&quot;&gt;ARK plugin for OJS&lt;/a&gt; was announced, and the
+&lt;a href=&quot;/arks.github.io/news/2021-11-01-the-ark-origin-story/&quot;&gt;ARK origin story&lt;/a&gt; went online. We are also delighted, as of yesterday, to now
+be a member of the &lt;a href=&quot;https://ndsa.org&quot;&gt;NDSA&lt;/a&gt;, a consortium of 264 partnering organizations
+committed to the long-term preservation of digital information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2021-12-16-ark-alliance-2021-wrap-up/image-1.png&quot; alt=&quot;&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;high&quot; height=&quot;736&quot; loading=&quot;eager&quot; width=&quot;830&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2021-12-16-ark-alliance-2021-wrap-up/image.png&quot; alt=&quot;&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;&quot; height=&quot;441&quot; loading=&quot;lazy&quot; width=&quot;1024&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;/arks.github.io/&quot;&gt;ARK Alliance&lt;/a&gt; community comprises institutions and people who use &lt;a href=&quot;https://en.wikipedia.org/wiki/Archival_Resource_Key&quot;&gt;ARK
+identifiers&lt;/a&gt; as well as those interested in promoting and sustaining the open
+ARK standards, best practices, and global &lt;a href=&quot;https://n2t.net/&quot;&gt;N2T.net&lt;/a&gt; resolver.&lt;/p&gt;
+
+&lt;p&gt;We have active working groups for &lt;a href=&quot;https://wiki.lyrasis.org/display/ARKs/Outreach+Working+Group&quot;&gt;outreach&lt;/a&gt;, &lt;a href=&quot;https://wiki.lyrasis.org/display/ARKs/Technical+Working+Group&quot;&gt;technical&lt;/a&gt; specs, and
+&lt;a href=&quot;https://wiki.lyrasis.org/display/ARKs/NAAN+Registry+Working+Group&quot;&gt;registering new institutions&lt;/a&gt; that want to create ARKs. Two new curators
+stepped forward this year to help manage the registry and we are always open
+to wider participation. Please &lt;a href=&quot;/arks.github.io/contact-us/&quot;&gt;let us know&lt;/a&gt; if you would like to become
+involved in our working groups!&lt;/p&gt;
+
+&lt;p&gt;Here is the December 2021 ARKs snapshot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Organizations registered to assign ARKs: 877&lt;/li&gt;
+  &lt;li&gt;Known number of ARKs in the world: 8.2 billion&lt;/li&gt;
+  &lt;li&gt;Amount paid for the right to create ARKs: $0&lt;/li&gt;
+  &lt;li&gt;Average resolutions per day by N2T.net in 2021: 152,350&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We will close with a list of the 187 institutions that were newly registered
+in 2021 to assign ARKs, in the order that they arrived.&lt;/p&gt;
+
+&lt;p&gt;Happy New Year!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Niagara Falls Public Library&lt;/li&gt;
+  &lt;li&gt;Musée national d’histoire et d’art Luxembourg&lt;/li&gt;
+  &lt;li&gt;Real Sociedad Bascongada de los Amigos del País&lt;/li&gt;
+  &lt;li&gt;Banque de France&lt;/li&gt;
+  &lt;li&gt;Bibliotheca Hertziana – Max Planck Institute for Art History&lt;/li&gt;
+  &lt;li&gt;Département des Hautes-Alpes&lt;/li&gt;
+  &lt;li&gt;Muséum d’histoire naturelle de Nantes Métropole&lt;/li&gt;
+  &lt;li&gt;Universidad Nacional Experimental de los Llanos Centrales Rómulo&lt;/li&gt;
+  &lt;li&gt;Sistema bibliotecario dell’Università di Verona&lt;/li&gt;
+  &lt;li&gt;National Library of Mexico&lt;/li&gt;
+  &lt;li&gt;Revista Científico Hombre Ciencia y Tecnología&lt;/li&gt;
+  &lt;li&gt;California Historical Society&lt;/li&gt;
+  &lt;li&gt;State Library Victoria&lt;/li&gt;
+  &lt;li&gt;Software Systems Lab&lt;/li&gt;
+  &lt;li&gt;Brill&lt;/li&gt;
+  &lt;li&gt;Fondation Cartier pour l’art contemporain&lt;/li&gt;
+  &lt;li&gt;Musée de Préhistoire d’Île-de-France&lt;/li&gt;
+  &lt;li&gt;Institut national de la propriété industrielle&lt;/li&gt;
+  &lt;li&gt;Musée Stéphane Mallarmé&lt;/li&gt;
+  &lt;li&gt;Max Planck Institute of Molecular Cell Biology and Genetics&lt;/li&gt;
+  &lt;li&gt;Silfersysten, Revista Sientifikha&lt;/li&gt;
+  &lt;li&gt;New York School of Interior Design&lt;/li&gt;
+  &lt;li&gt;Observatorio de la Deuda Social Argentina (ODSA) de la Universidad Católica Argentina (UCA)&lt;/li&gt;
+  &lt;li&gt;Acta Académica&lt;/li&gt;
+  &lt;li&gt;Atelier de la langue française&lt;/li&gt;
+  &lt;li&gt;Epicure 3.0&lt;/li&gt;
+  &lt;li&gt;Facultad de Ciencias de la Educación Universidad Nacional de Entre Ríos&lt;/li&gt;
+  &lt;li&gt;Kingston Public Library Local History Collections&lt;/li&gt;
+  &lt;li&gt;Real Biblioteca&lt;/li&gt;
+  &lt;li&gt;Archives de l’AP-HP&lt;/li&gt;
+  &lt;li&gt;Prince of Peace Abbey Library&lt;/li&gt;
+  &lt;li&gt;DrEdGE: Differential Expression Gene Explorer&lt;/li&gt;
+  &lt;li&gt;Numista&lt;/li&gt;
+  &lt;li&gt;Hampden Sydney College Archives &amp;amp; Special Collections&lt;/li&gt;
+  &lt;li&gt;EvidenceB&lt;/li&gt;
+  &lt;li&gt;IJCERT Publication House&lt;/li&gt;
+  &lt;li&gt;Nomad Education&lt;/li&gt;
+  &lt;li&gt;aleph99&lt;/li&gt;
+  &lt;li&gt;Archives municipales d’Alès&lt;/li&gt;
+  &lt;li&gt;Innovación y Software&lt;/li&gt;
+  &lt;li&gt;Faculty of Humanities and Social Sciences, University of Zagreb&lt;/li&gt;
+  &lt;li&gt;Revista Científica de la Facultad de Ciencias Químicas y Farmacia, USAC&lt;/li&gt;
+  &lt;li&gt;University of Northampton&lt;/li&gt;
+  &lt;li&gt;Universidad Nacional de Río Cuarto&lt;/li&gt;
+  &lt;li&gt;Revista Innovación Estética&lt;/li&gt;
+  &lt;li&gt;Plume&lt;/li&gt;
+  &lt;li&gt;National Journal of Environment and Scientific Research&lt;/li&gt;
+  &lt;li&gt;Conservatoire et jardin botaniques de la ville de Genève&lt;/li&gt;
+  &lt;li&gt;University of Southern Denmark&lt;/li&gt;
+  &lt;li&gt;Association québécoise des marionnettistes&lt;/li&gt;
+  &lt;li&gt;Les Musées d’Orléans&lt;/li&gt;
+  &lt;li&gt;Universidad del Valle de Puebla&lt;/li&gt;
+  &lt;li&gt;Chantier scientifique de Notre-Dame de Paris&lt;/li&gt;
+  &lt;li&gt;Poltekkes Kemenkes Kendari&lt;/li&gt;
+  &lt;li&gt;Università degli Studi di Torino&lt;/li&gt;
+  &lt;li&gt;ƱpnFʊnR&lt;/li&gt;
+  &lt;li&gt;Artips&lt;/li&gt;
+  &lt;li&gt;Archives de l’Etat de Fribourg&lt;/li&gt;
+  &lt;li&gt;Revista Odontología Vital&lt;/li&gt;
+  &lt;li&gt;Archives de Nantes&lt;/li&gt;
+  &lt;li&gt;calcul@TICE, Académie de Lille&lt;/li&gt;
+  &lt;li&gt;Quintú Quimün. Revista de lingüística&lt;/li&gt;
+  &lt;li&gt;VOD Factory&lt;/li&gt;
+  &lt;li&gt;Didasc@lia: didáctica y educación&lt;/li&gt;
+  &lt;li&gt;Boletín Científico Tecnológico&lt;/li&gt;
+  &lt;li&gt;Archives de Châtenay-Malabry&lt;/li&gt;
+  &lt;li&gt;Clwyd-Powys Archaeological Trust&lt;/li&gt;
+  &lt;li&gt;Facultad de Ciencias Económicas de la Universidad de Buenos Aires&lt;/li&gt;
+  &lt;li&gt;SchoolMouv&lt;/li&gt;
+  &lt;li&gt;Wooclap&lt;/li&gt;
+  &lt;li&gt;Centro de Documentación Regional Juan Bautista Vázquez&lt;/li&gt;
+  &lt;li&gt;Direzione Generale Archivi&lt;/li&gt;
+  &lt;li&gt;University of Wisconsin, Madison, Law School&lt;/li&gt;
+  &lt;li&gt;GIP mission de préfiguration Musée-mémorial du terrorisme&lt;/li&gt;
+  &lt;li&gt;George Mason University Libraries&lt;/li&gt;
+  &lt;li&gt;Helmholtz Centre for Environmental Research GmbH – UFZ&lt;/li&gt;
+  &lt;li&gt;Archives Rochefortocean&lt;/li&gt;
+  &lt;li&gt;The Open Academic Research Association&lt;/li&gt;
+  &lt;li&gt;Muséum d’histoire naturelle de Troyes&lt;/li&gt;
+  &lt;li&gt;Studytracks Global&lt;/li&gt;
+  &lt;li&gt;Polyneme LLC&lt;/li&gt;
+  &lt;li&gt;Abridged Pause Archiving&lt;/li&gt;
+  &lt;li&gt;Réseau des Médiathèques du Lunévillois.&lt;/li&gt;
+  &lt;li&gt;Karlsruhe Institute of Technology&lt;/li&gt;
+  &lt;li&gt;Dartmouth College Research, Teaching and Learning&lt;/li&gt;
+  &lt;li&gt;Revista Hormigón&lt;/li&gt;
+  &lt;li&gt;Musée des Beaux-Arts de Nancy&lt;/li&gt;
+  &lt;li&gt;Ibom Medical Journal&lt;/li&gt;
+  &lt;li&gt;Société des amis du Vieux Saint-Antonin&lt;/li&gt;
+  &lt;li&gt;International Association of Research Scholars&lt;/li&gt;
+  &lt;li&gt;CEUS&lt;/li&gt;
+  &lt;li&gt;National Microbiome Data Collaborative&lt;/li&gt;
+  &lt;li&gt;Atlantide Studio&lt;/li&gt;
+  &lt;li&gt;delving&lt;/li&gt;
+  &lt;li&gt;Al-Mukhtar Journal of Sciences&lt;/li&gt;
+  &lt;li&gt;Letterenhuis&lt;/li&gt;
+  &lt;li&gt;Museum Plantin-Moretus&lt;/li&gt;
+  &lt;li&gt;Rubenianum&lt;/li&gt;
+  &lt;li&gt;Streekarchief Midden-Holland&lt;/li&gt;
+  &lt;li&gt;Gouda Tijdmachine&lt;/li&gt;
+  &lt;li&gt;Revista Conflicto Social&lt;/li&gt;
+  &lt;li&gt;ModeMuseum Antwerpen&lt;/li&gt;
+  &lt;li&gt;Cinémathèque suisse&lt;/li&gt;
+  &lt;li&gt;Stad Antwerpen&lt;/li&gt;
+  &lt;li&gt;Services You&lt;/li&gt;
+  &lt;li&gt;Tralalere&lt;/li&gt;
+  &lt;li&gt;Hennessy&lt;/li&gt;
+  &lt;li&gt;Ediciones nuestrAmérica&lt;/li&gt;
+  &lt;li&gt;Association Espace Gérard Andreck&lt;/li&gt;
+  &lt;li&gt;DHARMA Project&lt;/li&gt;
+  &lt;li&gt;Cuadernos de descolonización y liberación&lt;/li&gt;
+  &lt;li&gt;Revista nuestrAmérica&lt;/li&gt;
+  &lt;li&gt;nuestrAmérica Journal of Social Research&lt;/li&gt;
+  &lt;li&gt;Fais ton Film&lt;/li&gt;
+  &lt;li&gt;Erfgoed Brabant&lt;/li&gt;
+  &lt;li&gt;Facultad de Filosofía y Letras, Universidad de Buenos Aires&lt;/li&gt;
+  &lt;li&gt;Portal Latinoamericano de Revistas Científicas&lt;/li&gt;
+  &lt;li&gt;ZHB Luzern&lt;/li&gt;
+  &lt;li&gt;rdxx group&lt;/li&gt;
+  &lt;li&gt;The Frick Collection&lt;/li&gt;
+  &lt;li&gt;Archives de la ville de Differdange&lt;/li&gt;
+  &lt;li&gt;Learn&amp;amp;Go&lt;/li&gt;
+  &lt;li&gt;Polymnia&lt;/li&gt;
+  &lt;li&gt;Musée d’art et d’histoire du Judaïsme&lt;/li&gt;
+  &lt;li&gt;Inschool SAS&lt;/li&gt;
+  &lt;li&gt;Archives du Lot et Garonne&lt;/li&gt;
+  &lt;li&gt;JConsort&lt;/li&gt;
+  &lt;li&gt;NADAR! SWIMMING MAGAZINE&lt;/li&gt;
+  &lt;li&gt;Bibliothèque de Sorbonne Université&lt;/li&gt;
+  &lt;li&gt;Archives de Dax&lt;/li&gt;
+  &lt;li&gt;Collections de Touraine&lt;/li&gt;
+  &lt;li&gt;Archives des Sables d’Olonne&lt;/li&gt;
+  &lt;li&gt;Service communautaire d’archives Pau Béarn Pyrénées&lt;/li&gt;
+  &lt;li&gt;Lalilo&lt;/li&gt;
+  &lt;li&gt;Revista Mundo Financiero&lt;/li&gt;
+  &lt;li&gt;eSquirrel GmbH&lt;/li&gt;
+  &lt;li&gt;Archives communales de Mérignac&lt;/li&gt;
+  &lt;li&gt;ICONCLASS&lt;/li&gt;
+  &lt;li&gt;Scientia Generalis&lt;/li&gt;
+  &lt;li&gt;Partenaire du savoir&lt;/li&gt;
+  &lt;li&gt;Musée national Magnin&lt;/li&gt;
+  &lt;li&gt;University of Canterbury Library&lt;/li&gt;
+  &lt;li&gt;Journal of Innovative Applied Mathematics and Computational Sciences&lt;/li&gt;
+  &lt;li&gt;Revista Jurídica de la Universidad de San Andrés&lt;/li&gt;
+  &lt;li&gt;Practeex&lt;/li&gt;
+  &lt;li&gt;DiasporA Tamil Archives&lt;/li&gt;
+  &lt;li&gt;Service de Coopération Documentaire Interuniversitaire de Montpellier&lt;/li&gt;
+  &lt;li&gt;Middelheimmuseum&lt;/li&gt;
+  &lt;li&gt;Museum Mayer van den Bergh&lt;/li&gt;
+  &lt;li&gt;Museum aan de Stroom&lt;/li&gt;
+  &lt;li&gt;Red Star Line Museum&lt;/li&gt;
+  &lt;li&gt;Museum Vleeshuis&lt;/li&gt;
+  &lt;li&gt;CYRANO MEDIA&lt;/li&gt;
+  &lt;li&gt;VMind&lt;/li&gt;
+  &lt;li&gt;Instituto de Antropología de Córdoba&lt;/li&gt;
+  &lt;li&gt;KohaAloha library&lt;/li&gt;
+  &lt;li&gt;Aramis Lab&lt;/li&gt;
+  &lt;li&gt;Folkrörelsearkivet för Uppsala län&lt;/li&gt;
+  &lt;li&gt;ESPES. The Slovak Journal of Aesthetics&lt;/li&gt;
+  &lt;li&gt;ORIENTEST&lt;/li&gt;
+  &lt;li&gt;9 HEURES PRÉCISES SAS&lt;/li&gt;
+  &lt;li&gt;Musée des Beaux-Arts et d’Archéologie de Troyes&lt;/li&gt;
+  &lt;li&gt;Musée national des arts asiatiques – Guimet&lt;/li&gt;
+  &lt;li&gt;Direction de la bibliothèque et des archives du Conseil d’Etat&lt;/li&gt;
+  &lt;li&gt;Médiathèque Eugène Corbin&lt;/li&gt;
+  &lt;li&gt;Médiathèque Jean Rouppert&lt;/li&gt;
+  &lt;li&gt;Ludo-médiathèque Frouard&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>arks_org</name></author><summary type="html">In 2021, the ARK community expanded with 187 new institutions, including the Louvre and Frick Collection, showcasing ARK’s flexibility and preservation commitment.</summary></entry><entry><title type="html">The Frick Collection to use ARKs</title><link href="https://arks-org.github.io/arks.github.io/news/2021-12-08-the-frick-collection-to-use-arks/" rel="alternate" type="text/html" title="The Frick Collection to use ARKs" /><published>2021-12-08T21:49:56+00:00</published><updated>2021-12-08T21:49:56+00:00</updated><id>https://arks-org.github.io/arks.github.io/news/the-frick-collection-to-use-arks</id><content type="html" xml:base="https://arks-org.github.io/arks.github.io/news/2021-12-08-the-frick-collection-to-use-arks/">&lt;p&gt;The Frick Collection has chosen ARK persistent identifiers to enhance
+long-term stewardship of its digital assets, offering flexibility for diverse
+scholarly resources and materials.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://digitalcollections.frick.org/&quot;&gt;Frick Collection&lt;/a&gt; plans to assign ARK persistent identifiers as part of
+its commitment to the long-term stewardship of our publicly available digital
+assets. Guiding this decision was the flexibility of the ARK identifier scheme
+in terms of metadata and content, which lends itself to the range of materials
+and future use cases that we anticipate.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2021-12-08-the-frick-collection-to-use-arks/screencapture-digitalcollections-frick-org-2021-09-22-12_08_46-2048x1538.png&quot; alt=&quot;&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;high&quot; height=&quot;769&quot; loading=&quot;eager&quot; width=&quot;1024&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our website makes available a unique resource for research in the humanities
+and art history, providing access to over 1.8 million pages of material. That
+includes images and documentation for works of art, books in the public
+domain, and the archives of The Frick Collection. ARK identifiers are a
+natural choice to support this diversity of scholarly resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/posts/2021-12-08-the-frick-collection-to-use-arks/Frick-Art-Reference-Library-Reading-Room-Photographer-George-Koelle-2018.jpg&quot; alt=&quot;&quot; class=&quot;img-thumbnail img-responsive&quot; fetchpriority=&quot;&quot; height=&quot;682&quot; loading=&quot;lazy&quot; width=&quot;1024&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Frick Art Reference Library Reading Room (George Koelle, 2018)&lt;/p&gt;</content><author><name>{&quot;visible_name&quot;=&gt;&quot;Luciano Johnson&quot;, &quot;url&quot;=&gt;nil, &quot;name&quot;=&gt;nil, &quot;info&quot;=&gt;nil}</name></author><summary type="html">The Frick Collection has chosen ARK persistent identifiers to enhance long-term stewardship of its digital assets, offering flexibility for diverse scholarly resources and materials.</summary></entry></feed>

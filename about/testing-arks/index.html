@@ -24,23 +24,24 @@
 
   
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>ARK Alliance | Home of the Archival Resource Key (ARK)</title>
+<title>Testing ARKs with N2T | ARK Alliance</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="ARK Alliance" />
+<meta property="og:title" content="Testing ARKs with N2T" />
 <meta name="author" content="The ARK Alliance" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<meta property="og:description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<link rel="canonical" href="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
-<meta property="og:url" content="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
+<meta name="description" content="ARK Testing: Best Practices. Delete test ARKs regularly. Quick test ARKs with your NAAN: ark:/99999/9NNNNN_. Shared NAAN 99999 for testing; list in registry for N2T resolution." />
+<meta property="og:description" content="ARK Testing: Best Practices. Delete test ARKs regularly. Quick test ARKs with your NAAN: ark:/99999/9NNNNN_. Shared NAAN 99999 for testing; list in registry for N2T resolution." />
+<link rel="canonical" href="https://arks-org.github.io/arks.github.io/about/testing-arks/" />
+<meta property="og:url" content="https://arks-org.github.io/arks.github.io/about/testing-arks/" />
 <meta property="og:site_name" content="ARK Alliance" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-23T23:09:05+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="ARK Alliance" />
+<meta property="twitter:title" content="Testing ARKs with N2T" />
 <meta name="twitter:site" content="@arks_org" />
 <meta name="twitter:creator" content="@The ARK Alliance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"The ARK Alliance"},"description":"ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship.","headline":"ARK Alliance","url":"https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"The ARK Alliance"},"dateModified":"2021-01-23T23:09:05+00:00","datePublished":"2021-01-23T23:09:05+00:00","description":"ARK Testing: Best Practices. Delete test ARKs regularly. Quick test ARKs with your NAAN: ark:/99999/9NNNNN_. Shared NAAN 99999 for testing; list in registry for N2T resolution.","headline":"Testing ARKs with N2T","mainEntityOfPage":{"@type":"WebPage","@id":"https://arks-org.github.io/arks.github.io/about/testing-arks/"},"url":"https://arks-org.github.io/arks.github.io/about/testing-arks/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -280,28 +281,47 @@
 
     <div class="ark-alliance__content container my-5">
       <h1 class="ark-alliance__content--title">
-        
+        Testing ARKs with N2T
       </h1>
       <div class="ark-alliance__content--body">
-        <p>{
-    “name”: “”,
-    “short_name”: “”,
-    “icons”: [
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-192x192.png?v=2”,
-            “sizes”: “192x192”,
-            “type”: “image/png”
-        },
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-512x512.png?v=2”,
-            “sizes”: “512x512”,
-            “type”: “image/png”
-        }
-    ],
-    “theme_color”: “#ffffff”,
-    “background_color”: “#ffffff”,
-    “display”: “standalone”
-}</p>
+        
+<p>Test ARKs should be deleted regularly or else users will get used to them
+being there and they may become attached to them. The longer an identifier is
+in place the harder it can be to withdraw it. For example, the EZID system
+deletes test ARKs older than about two weeks. Duration of any ARK should be
+discoverable from its persistence statement, which is what the “??” inflection
+is designed to return.</p>
+
+<p>There are two ways to create test ARKs.</p>
+
+<h2 id="1-test-with-your-own-naan">1. Test with your own NAAN</h2>
+
+<p>If your organization already has its own NAAN, you can immediately create and
+use a “quick test ARK”. This is an ARK that starts with ark:/99999/9NNNNN_,
+where NNNNN represents the NAAN (preceded by ‘9’ and followed by ‘_’). There
+is no need to register a quick test namespace since it is automatically set
+aside for each NAAN. As with any prefix, there is an infinite number of
+possible test ARKs in each NAAN’s quick test namespace. Here are two versions
+of an example quick test ARK belonging to the BnF (NAAN 12148):</p>
+
+<div class="language-plaintext bg-secondary-subtle highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   https://ark.bnf.fr/ark:/99999/912148_testxyz
+      https://n2t.net/ark:/99999/912148_testxyz
+</code></pre></div></div>
+
+<p>Note that N2T.net is configured to forward any quick test ARK it receives
+(second version above) to the appropriate local resolver (first version).</p>
+
+<h2 id="2-request-a-test-shoulder-under-a-shared-naan">2. Request a test shoulder under a shared NAAN</h2>
+
+<p>As mentioned, to implement a shoulder under your <em>own</em> NAAN requires no
+special request, but the drawback is that recipients have no way of looking at
+an ARK minted on your test shoulder and knowing that it is a test ARK. But
+they can tell if the shoulder is under the <em>shared</em> NAAN, 99999, which is
+well-known for being reserved for testing. So if you need a shoulder under
+this shared NAAN, and if you want N2T.net to resolve it, you would need to get
+it listed in the <a href="https://n2t.net/e/pub/shoulder_registry.txt">shared NAAN shoulders registry</a>. That means filling out an
+<a href="https://n2t.net/e/shoulder_request">online shoulder form</a>.</p>
+
 
 
       </div>

@@ -24,23 +24,24 @@
 
   
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>ARK Alliance | Home of the Archival Resource Key (ARK)</title>
+<title>ARK implementation best practices | ARK Alliance</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="ARK Alliance" />
+<meta property="og:title" content="ARK implementation best practices" />
 <meta name="author" content="The ARK Alliance" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<meta property="og:description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<link rel="canonical" href="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
-<meta property="og:url" content="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
+<meta name="description" content="This article outlines best practices for implementing ARK identifiers, covering ARK creation, metadata, and policy statements for object lifecycle management." />
+<meta property="og:description" content="This article outlines best practices for implementing ARK identifiers, covering ARK creation, metadata, and policy statements for object lifecycle management." />
+<link rel="canonical" href="https://arks-org.github.io/arks.github.io/about/best-practices/" />
+<meta property="og:url" content="https://arks-org.github.io/arks.github.io/about/best-practices/" />
 <meta property="og:site_name" content="ARK Alliance" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-23T23:10:16+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="ARK Alliance" />
+<meta property="twitter:title" content="ARK implementation best practices" />
 <meta name="twitter:site" content="@arks_org" />
 <meta name="twitter:creator" content="@The ARK Alliance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"The ARK Alliance"},"description":"ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship.","headline":"ARK Alliance","url":"https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"The ARK Alliance"},"dateModified":"2021-01-23T23:10:16+00:00","datePublished":"2021-01-23T23:10:16+00:00","description":"This article outlines best practices for implementing ARK identifiers, covering ARK creation, metadata, and policy statements for object lifecycle management.","headline":"ARK implementation best practices","mainEntityOfPage":{"@type":"WebPage","@id":"https://arks-org.github.io/arks.github.io/about/best-practices/"},"url":"https://arks-org.github.io/arks.github.io/about/best-practices/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -280,28 +281,59 @@
 
     <div class="ark-alliance__content container my-5">
       <h1 class="ark-alliance__content--title">
-        
+        ARK implementation best practices
       </h1>
       <div class="ark-alliance__content--body">
-        <p>{
-    “name”: “”,
-    “short_name”: “”,
-    “icons”: [
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-192x192.png?v=2”,
-            “sizes”: “192x192”,
-            “type”: “image/png”
-        },
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-512x512.png?v=2”,
-            “sizes”: “512x512”,
-            “type”: “image/png”
-        }
-    ],
-    “theme_color”: “#ffffff”,
-    “background_color”: “#ffffff”,
-    “display”: “standalone”
-}</p>
+        
+<h2 id="ark-creation-and-object-lifecycle">ARK creation and object lifecycle</h2>
+
+<p>ARKs should be created at object birth, or even before. We sometimes name our
+babies before they’re born, and we name and refer to objects in the conception
+stages, sometimes long before they bear fruit. Depending on how elaborate the
+planning may be, your unborn objects could have full-function ARKs that
+resolve to an appropriate surrogate and return rich metadata, including
+<a href="https://doi.org/10.5334/dsj-2017-039">persistence statements</a>.</p>
+
+<p>The only caveat is to be careful releasing (advertising) ARKs that have
+uncertain long term prospects. Some identifier management systems have
+features to help manage and resolve unreleased identifiers (eg, <a href="https://ezid.cdlib.org/">EZID</a> has a
+“reserved” status). The more people who know about an ARK, the harder it is to
+delete.</p>
+
+<h2 id="metadata">Metadata</h2>
+
+<p>Creating metadata (extra information associated with or describing an object)
+has several key benefits. First, no matter what the ARK redirects to – whether
+a landing page or a file – metadata gives users vital information about the
+object, such as references to newer versions, creation date, provenance, etc.
+For ARKs typically metadata is accessed via inflections.</p>
+
+<p>Metadata really eases the difficulty of working with opaque identifiers, which
+reveal no clues as to what they identify. In the absence of metadata you are
+forced to access the object itself to remind yourself what it is, and also to
+trust that you’re accessing the correct object. Moreover, discrepancies
+between returned metadata and the accessed object help everyone detect
+identifier changes and errors.</p>
+
+<p>Metadata is for grownups, and is far less important for immature objects and
+their identifiers than for those that have been released. Having metadata
+demonstrates basic provider credibility and commitment to high-functioning
+identifiers. Not every provider is up to this task.</p>
+
+<p>It need not be expensive. Building metadata from scratch can be costly, but
+it’s usually created and managed by object providers, in which case it can be
+leveraged efficiently for identifiers. Ideally, for strong persistence master
+metadata (maintained by object providers) should be reflected in independent
+systems so that it is hard for someone to tamper undetectably with identifier
+associations. For example, digital object repositories that obtain ARKs and
+DOIs from the <a href="https://ezid.cdlib.org/">EZID</a> service store a copy of their metadata with
+EZID.cdlib.org, which in turn stores another copy with the <a href="https://n2t.net/">N2T.net</a> resolver.</p>
+
+<h2 id="policy-statements">Policy statements</h2>
+
+<p>The ARK inflection “??” at the en∑scribing Digital Stickiness]<a href="https://doi.org/10.5334/dsj-2017-039">persistence
+statements</a></p>
+
 
 
       </div>

@@ -24,23 +24,24 @@
 
   
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>ARK Alliance | Home of the Archival Resource Key (ARK)</title>
+<title>ARK features | ARK Alliance</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="ARK Alliance" />
+<meta property="og:title" content="ARK features" />
 <meta name="author" content="The ARK Alliance" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<meta property="og:description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<link rel="canonical" href="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
-<meta property="og:url" content="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
+<meta name="description" content="Explore the diverse capabilities of ARK identifiers, including local namespaces (shoulders), flexible metadata support, inflections for additional data, and the ability to delete ARKs when necessary. Gain insights into how ARKs empower a range of use cases while offering options for metadata schemas and policy statements." />
+<meta property="og:description" content="Explore the diverse capabilities of ARK identifiers, including local namespaces (shoulders), flexible metadata support, inflections for additional data, and the ability to delete ARKs when necessary. Gain insights into how ARKs empower a range of use cases while offering options for metadata schemas and policy statements." />
+<link rel="canonical" href="https://arks-org.github.io/arks.github.io/about/ark-features/" />
+<meta property="og:url" content="https://arks-org.github.io/arks.github.io/about/ark-features/" />
 <meta property="og:site_name" content="ARK Alliance" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-23T22:26:24+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="ARK Alliance" />
+<meta property="twitter:title" content="ARK features" />
 <meta name="twitter:site" content="@arks_org" />
 <meta name="twitter:creator" content="@The ARK Alliance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"The ARK Alliance"},"description":"ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship.","headline":"ARK Alliance","url":"https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"The ARK Alliance"},"dateModified":"2021-01-23T22:26:24+00:00","datePublished":"2021-01-23T22:26:24+00:00","description":"Explore the diverse capabilities of ARK identifiers, including local namespaces (shoulders), flexible metadata support, inflections for additional data, and the ability to delete ARKs when necessary. Gain insights into how ARKs empower a range of use cases while offering options for metadata schemas and policy statements.","headline":"ARK features","mainEntityOfPage":{"@type":"WebPage","@id":"https://arks-org.github.io/arks.github.io/about/ark-features/"},"url":"https://arks-org.github.io/arks.github.io/about/ark-features/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -280,28 +281,210 @@
 
     <div class="ark-alliance__content container my-5">
       <h1 class="ark-alliance__content--title">
-        
+        ARK features
       </h1>
       <div class="ark-alliance__content--body">
-        <p>{
-    “name”: “”,
-    “short_name”: “”,
-    “icons”: [
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-192x192.png?v=2”,
-            “sizes”: “192x192”,
-            “type”: “image/png”
-        },
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-512x512.png?v=2”,
-            “sizes”: “512x512”,
-            “type”: “image/png”
-        }
-    ],
-    “theme_color”: “#ffffff”,
-    “background_color”: “#ffffff”,
-    “display”: “standalone”
-}</p>
+        
+<p>The availability of the features below is based on what system you’re using to
+resolve ARKs, so may vary whether you’re using an ARK service provider or
+running your own Noid installation. ARKs are designed to support all of the
+following:</p>
+
+<ul>
+  <li>Shoulders (local namespaces)</li>
+  <li>Metadata</li>
+  <li>Inflections</li>
+  <li>Deletion</li>
+</ul>
+
+<h2 id="shoulders">Shoulders</h2>
+
+<p>Shoulders are short strings that extend your NAAN and allow you to create
+local namespaces below your NAAN. They divide your ARKs across autonomous
+projects or divisions, the which prevents independent assignment operations
+from creating duplicate ARKs. There is more to learn more about <a href="/arks.github.io/about/ark-namespaces/">ARK shoulders
+and namespaces</a>.</p>
+
+<h2 id="metadata">Metadata</h2>
+
+<h3 id="ark-metadata-flexibility-and-the-digital-object-lifecycle"><strong>ARK metadata flexibility and the digital object lifecycle</strong></h3>
+
+<p>ARK systems such as Noid and N2T can record and provide metadata about any
+resource with an ARK. That metadata becomes available via APIs, and can be
+seen when you add “?” to the end of an ARK URL. (See “Inflections” below)</p>
+
+<p>ARK metadata is very flexible, with no initial required metadata, but with
+support for multiple metadata schemas. This flexibility is intentional: ARKs
+are designed to support a full digital object workflow, including the earliest
+stages before a resource is well-understood or described.</p>
+
+<p>People need identifiers before they know exactly what object they refer to, or
+if they refer to anything worth keeping. An identifier that requires mature
+metadata cannot be created during early development since little is known
+about the object.</p>
+
+<p>If you start with an ARK, you benefit from being able to keep the original
+identifier through to public release as the metadata matures. Many objects go
+through intensive development and revision phases, sometimes lasting years,
+during which they are too immature to meet most metadata requirements.
+Nonetheless every object needs some sort of identifier from conception to
+maturity.</p>
+
+<p>Like the object itself, metadata <em>elements</em> need a flexible place to grow and
+mature over time:</p>
+
+<ul>
+  <li>starting in the planning phase, when it just needs an <em>identifier</em>,</li>
+  <li>at the moment of birth, when its first digital representation needs a
+<em>redirection target</em> URL,</li>
+  <li>after the first analysis, when its significance and a tentative <em>title</em> emerges,</li>
+  <li>when creating dozens of discipline-specific metadata elements that violate
+most metadata standards except your own,</li>
+  <li>during post-processing by a colleague whose name you will add as an
+additional <em>creator</em>,</li>
+  <li>when early feedback based on the tweeted identifier turns up a key insight
+and a new <em>contributor</em>,</li>
+  <li>and so forth, through to archiving, abandonment, public release,
+correction, revision, enhancement, etc.</li>
+</ul>
+
+<p>Unlike Crossref and DataCite DOIs, which require specific metadata (eg, see
+the <a href="https://schema.datacite.org/meta/kernel-4.2/">DataCite schema</a>), ARKs do not constrain any of these activities.
+Moreover the N2T.net resolver actually supports all of them.</p>
+
+<h3 id="metadata-schemas"><strong>Metadata schemas</strong></h3>
+
+<p>If you use an ARK service such as EZID or ARKetype, or if ARKs are integrated
+with your repository platform, those services may define the metadata schemas
+you can use. <a href="https://dublincore.org/">Dublin Core</a>, <a href="https://schema.datacite.org/">DataCite</a>, <a href="https://schema.org/">Schema.org</a>, and <a href="https://dublincore.org/groups/kernel/spec/">Dublin Kernel</a> are
+common metadata specifications to consider for use with ARKs.</p>
+
+<p>Enhance here when you have answers to metadata questions</p>
+
+<p>Choosing or creating a specification for your metadata depends on factors such as</p>
+
+<ul>
+  <li>whether you are currently managing metadata (<em>hint</em>: stay with your
+current standard unless you have a good reason to switch),</li>
+  <li>how well your local metadata standard can map to a schema already
+supported by your resolver (<em>hint</em>: map to an existing standard if
+possible),</li>
+  <li>whether you want to officially publish objects (<em>hint</em>: prepare to be able
+to supply author, title, date, publisher/archive, and object type),</li>
+  <li>the requirements and capabilities of your resolver (<em>hint</em>: your IT staff
+or vendor might have its own requirements), and</li>
+  <li>whether you want to store non-standard elements (<em>hint</em>: <a href="https://n2t.net/">N2T</a> allows
+this, but most standards and vendors don’t).</li>
+</ul>
+
+<h2 id="erc-dublin-kernel-metadata">ERC: Dublin Kernel metadata</h2>
+
+<p>You may see metadata for ARKs expressed with the labels “who”, “what”, “when”,
+“where”, which may not correspond to a standard you use now.</p>
+
+<p>ARKs were designed to identify anything, not just things that are, for
+example, publishable or purchasable. It is unnatural to model a fossil, tissue
+sample, vocabulary term, or Marie Curie as if each has an Author, Title,
+Publisher, Copyright, and Price. Instead, since 2001 an ARK typically has a
+four-element kernel of highly generic metadata (<a href="https://dublincore.org/groups/kernel/spec/">Dublin Kernel</a>, inspired by
+<a href="https://dublincore.org/">Dublin Core</a> (DC)), followed by any other metadata elements (name/value
+pairs) the provider wishes to provide.</p>
+
+<p>Kernel metadata is structured as if in answer to the questions, who, what,
+when, and where regarding the expression of, or the “telling” of, an object:</p>
+
+<ul>
+  <li><em>who</em> “told” it (similar to DC Creator, Contributor, and Publisher, but
+also Inventor, Discoverer, Conductor, etc),</li>
+  <li><em>what</em> the “telling” was called (similar to DC Title, but also
+TissueSampleNumber, ArtifactBarcode, etc),</li>
+  <li><em>when</em> it was “told” (similar DC Date, but includes date ranges,
+approximate and BCE dates),</li>
+  <li><em>where</em> the “telling” can be found (from DC Identifier, but usually not
+needed because this is the ARK itself)</li>
+</ul>
+
+<h2 id="inflection-metadata-and-policy-statement">Inflection: metadata and policy statement</h2>
+
+<p>Many ARK resolvers, including N2T, support two inflections: characters you can
+add to the end of an ARK URL to return additional information about the
+resource.</p>
+
+<p>With inflection features, each ARK URL should be able to provide 3 things:</p>
+
+<ul>
+  <li>the object itself,</li>
+  <li>a brief metadata record if you append a single question mark to the ARK, and</li>
+  <li>a maintenance commitment from the current server when you append two
+question marks.</li>
+</ul>
+
+<p>To see inflections in action, visit the following links:</p>
+
+<ul>
+  <li><a href="https://texashistory.unt.edu/ark:/67531/metapth346793/">https://texashistory.unt.edu/ark:/67531/metapth346793/</a></li>
+  <li><a href="https://texashistory.unt.edu/ark:/67531/metapth346793/?">https://texashistory.unt.edu/ark:/67531/metapth346793/?</a></li>
+  <li><a href="https://texashistory.unt.edu/ark:/67531/metapth346793/??">https://texashistory.unt.edu/ark:/67531/metapth346793/??</a></li>
+</ul>
+
+<p>The metadata returned is determined by the metadata schema and maintenance
+decisions you made when implementing ARKs.</p>
+
+<p>The policy information returned is actually a URL that leads to a policy
+statement that some resolvers may allow you to configure. That policy
+statement should hold true for all objects you assign ARKs to.</p>
+
+<p>As an example, the California Digital Library (CDL) assigns identifiers within
+the ARK domain under the NAAN 13030 and according to the following principles:</p>
+
+<ul>
+  <li>No ARK shall be re-assigned; that is, once an ARK-to-object association
+has been made public, that association shall be considered unique into the
+indefinite future.</li>
+  <li>To help them age and travel well, the Name part of CDL-assigned ARKs shall
+contain no widely recognizable semantic information (to the extent
+possible).</li>
+  <li>CDL-assigned ARKs shall be generated with a terminal check character that
+guarantees them against single character errors and transposition errors.</li>
+</ul>
+
+<p>Institutions that generate ARKs may want to follow similar principles or
+develop their own assignment policies.</p>
+
+<h2 id="deleting-arks">Deleting ARKs</h2>
+
+<p>Unlike other kinds of identifiers, ARKs can be deleted. If no one knows about
+an identifier but you, there’s no harm in deleting or withdrawing it. Stepping
+back, an identifier is actually an assertion that a given string of characters
+is associated with specific thing. The fewer people you tell, the easier it is
+to scrap that assertion. If you create a URL and share it only with your
+closest colleagues, that is much easier to withdraw than if the URL appeared
+for a month on a public website, from which it was harvested by internet
+search engines. In contrast, it is hard to delete DOIs and Handles because
+once registered and made resolvable, they are effectively released to the
+world.</p>
+
+<p>ARKs behave like URLs in this respect. Providers are free to create and share
+ARKs narrowly, in which case they’re easy to delete.</p>
+
+<p>Perhaps surprisingly, even if shared more broadly, ARKs should come with
+policy <a href="https://doi.org/10.5334/dsj-2017-039">statements</a> that tell you how much or how little commitment is made to
+them. ARKs were designed to articulate a variety of persistence statements,
+but they are certainly not alone among identifiers and objects that exhibit a
+variety of commitment “flavors”. This is why ARKs are known as
+high-functioning identifiers that are good at persistence rather than as
+“persistent identifiers”.</p>
+
+<p>Finally, people make mistakes. ARKs, DOIs, Handles, PURLs, and URNs are
+sometimes broadcast in error and need to be withdrawn. When that happens,
+provider best practice is to make the withdrawn identifier resolve to a
+“tombstone” page that explains and perhaps apologizes for the inconvenience.
+Despite the rumors, persistent identifiers are never guaranteed.</p>
+
+<p>Because ARKs can be deleted and don’t require metadata, you can create them
+very early in the object workflow, before you’re sure about the keeping the
+resource and before you’ve invested in describing it.</p>
+
 
 
       </div>

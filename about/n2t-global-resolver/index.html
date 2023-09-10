@@ -24,23 +24,24 @@
 
   
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>ARK Alliance | Home of the Archival Resource Key (ARK)</title>
+<title>More about the N2T global resolver | ARK Alliance</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="ARK Alliance" />
+<meta property="og:title" content="More about the N2T global resolver" />
 <meta name="author" content="The ARK Alliance" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<meta property="og:description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<link rel="canonical" href="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
-<meta property="og:url" content="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
+<meta name="description" content="N2T global resolver: Redirects identifiers to forwarding links. Resolves various types, not just ARKs. Built on open principles." />
+<meta property="og:description" content="N2T global resolver: Redirects identifiers to forwarding links. Resolves various types, not just ARKs. Built on open principles." />
+<link rel="canonical" href="https://arks-org.github.io/arks.github.io/about/n2t-global-resolver/" />
+<meta property="og:url" content="https://arks-org.github.io/arks.github.io/about/n2t-global-resolver/" />
 <meta property="og:site_name" content="ARK Alliance" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-23T23:05:29+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="ARK Alliance" />
+<meta property="twitter:title" content="More about the N2T global resolver" />
 <meta name="twitter:site" content="@arks_org" />
 <meta name="twitter:creator" content="@The ARK Alliance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"The ARK Alliance"},"description":"ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship.","headline":"ARK Alliance","url":"https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"The ARK Alliance"},"dateModified":"2021-01-23T23:05:29+00:00","datePublished":"2021-01-23T23:05:29+00:00","description":"N2T global resolver: Redirects identifiers to forwarding links. Resolves various types, not just ARKs. Built on open principles.","headline":"More about the N2T global resolver","mainEntityOfPage":{"@type":"WebPage","@id":"https://arks-org.github.io/arks.github.io/about/n2t-global-resolver/"},"url":"https://arks-org.github.io/arks.github.io/about/n2t-global-resolver/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -280,28 +281,51 @@
 
     <div class="ark-alliance__content container my-5">
       <h1 class="ark-alliance__content--title">
-        
+        More about the N2T global resolver
       </h1>
       <div class="ark-alliance__content--body">
-        <p>{
-    “name”: “”,
-    “short_name”: “”,
-    “icons”: [
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-192x192.png?v=2”,
-            “sizes”: “192x192”,
-            “type”: “image/png”
-        },
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-512x512.png?v=2”,
-            “sizes”: “512x512”,
-            “type”: “image/png”
-        }
-    ],
-    “theme_color”: “#ffffff”,
-    “background_color”: “#ffffff”,
-    “display”: “standalone”
-}</p>
+        
+<h2 id="how-n2t-works">How N2T Works</h2>
+
+<p>When a resolution request comes in from the general public, N2T looks up the
+identifier and redirects the original link to a forwarding link. To do this it
+uses two different resolution “patterns”. To begin, N2T tries to resolve
+according to information found in an individual stored identifier. Failing
+that, N2T tries to resolve according to any stored class rules, based on the
+identifier type.</p>
+
+<p>N2T has a different kind of stored data for each pattern. First, it stores
+individual records for about 50 million object identifiers (eg, ARKs, DOIs)
+that it obtains from three sources: <a href="https://ezid.cdlib.org/">EZID.cdlib.org</a>, <a href="https://archive.org/">Inte</a><a href="https://archive.org/">r</a><a href="https://archive.org/">net
+Archive</a>, and <a href="https://yamz.net/">YAMZ.net</a>. When such records include a redirection URL
+(<em>target</em>) and descriptive metadata, N2T can act on inflections as well as
+perform <a href="https://n2t.net/e/suffix_passthrough.html">suffix passthrough</a> and “content negotiation”. To support creation
+and maintenance of individual identifier records, there is an <a href="https://n2t.net/e/n2t_apidoc.html">N2T API</a>
+requiring login credentials. The API also allows batch operations and unique
+identifier generation (minting).</p>
+
+<p>Second, even if N2T knows nothing about an individual identifier, resolution
+may still work because of a stored routing rule record triggered by the type
+of the identifier. N2T maintains over 3500 rule records regularly updated from
+several sources, including the <a href="https://n2t.net/e/pub/naan_registry.txt">NAAN registry</a>, a database of shoulders (see
+<a href="/arks.github.io/about/ark-namespaces/">namespaces</a>), and a formal partnership on <a href="https://n2t.net/e/compact_ids.html">compact identifiers</a> with
+<a href="https://identifiers.org/">identifiers.org</a>.</p>
+
+<p><img src="https://lh3.googleusercontent.com/vZvC9P_CZkA7M0sos-lvF6QEt50rbzpZmu__eW3wIYtfw6ldRJu74Ze92zQohHHftmgXBisE4VzKUFCJMgRvKfOrornPKzmrhLzXhaO4ZHCafV4L-30KhjbmbOURLf7zD4rOJSst" alt="" class="img-thumbnail img-fluid" loading="lazy" /></p>
+
+<h2 id="n2t-is-not-just-for-arks">N2T is not just for ARKs</h2>
+
+<p>When demand for a global ARK resolver arose, basic principles of openness and
+generality prevented the designers from creating yet another silo in the
+DOI/Handle/PURL mold. Instead, the ARK resolver was built to be a generic,
+scheme-agnostic resolver called N2T (Name-to-Thing), which now resolves over
+900 types of identifier, including ARKs, DOIs, Handles, PURLs, URNs, ORCIDs,
+ISSNs, etc. Resolution is essentially looking in a table for an identifier
+string, regardless of type, and redirecting it to the right place.</p>
+
+<p>The same basic principles guided the design of <a href="https://metacpan.org/pod/distribution/Noid/noid">Noid</a>, which was built for
+ARKs but is also regularly used by organizations that mint Handles.</p>
+
 
 
       </div>

@@ -24,23 +24,24 @@
 
   
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>ARK Alliance | Home of the Archival Resource Key (ARK)</title>
+<title>ARK namespaces and sub-namespaces | ARK Alliance</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="ARK Alliance" />
+<meta property="og:title" content="ARK namespaces and sub-namespaces" />
 <meta name="author" content="The ARK Alliance" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<meta property="og:description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<link rel="canonical" href="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
-<meta property="og:url" content="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
+<meta name="description" content="The article covers ARK namespaces, extending prefixes, shoulders, shared NAANs, resolving ARKs, and updating NAAN registry entries." />
+<meta property="og:description" content="The article covers ARK namespaces, extending prefixes, shoulders, shared NAANs, resolving ARKs, and updating NAAN registry entries." />
+<link rel="canonical" href="https://arks-org.github.io/arks.github.io/about/ark-namespaces/" />
+<meta property="og:url" content="https://arks-org.github.io/arks.github.io/about/ark-namespaces/" />
 <meta property="og:site_name" content="ARK Alliance" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-23T23:06:30+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="ARK Alliance" />
+<meta property="twitter:title" content="ARK namespaces and sub-namespaces" />
 <meta name="twitter:site" content="@arks_org" />
 <meta name="twitter:creator" content="@The ARK Alliance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"The ARK Alliance"},"description":"ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship.","headline":"ARK Alliance","url":"https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"The ARK Alliance"},"dateModified":"2021-01-23T23:06:30+00:00","datePublished":"2021-01-23T23:06:30+00:00","description":"The article covers ARK namespaces, extending prefixes, shoulders, shared NAANs, resolving ARKs, and updating NAAN registry entries.","headline":"ARK namespaces and sub-namespaces","mainEntityOfPage":{"@type":"WebPage","@id":"https://arks-org.github.io/arks.github.io/about/ark-namespaces/"},"url":"https://arks-org.github.io/arks.github.io/about/ark-namespaces/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -280,28 +281,251 @@
 
     <div class="ark-alliance__content container my-5">
       <h1 class="ark-alliance__content--title">
-        
+        ARK namespaces and sub-namespaces
       </h1>
       <div class="ark-alliance__content--body">
-        <p>{
-    “name”: “”,
-    “short_name”: “”,
-    “icons”: [
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-192x192.png?v=2”,
-            “sizes”: “192x192”,
-            “type”: “image/png”
-        },
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-512x512.png?v=2”,
-            “sizes”: “512x512”,
-            “type”: “image/png”
-        }
-    ],
-    “theme_color”: “#ffffff”,
-    “background_color”: “#ffffff”,
-    “display”: “standalone”
-}</p>
+        
+<h2 id="ark-namespace-overview">ARK namespace overview</h2>
+
+<p>ARK namespaces work much the same way that all namespaces work. Given a prefix
+associated with a namespace, this prefix can be “extended” (adding characters
+to the end of it) to create a new sub-namespace (directly under it) associated
+with the extended prefix. If the extended prefixes don’t conflict, nor will
+the names in the associated namespaces. There can be a namespace associated
+with any prefix you can think of, each with a potentially infinite number of
+names (ARKs) that start with it.</p>
+
+<p>ARK namespaces begin with the Name Assigning Authority Number (NAAN), and can
+be further extended by a shoulder.</p>
+
+<div class="table-responsive">
+  <table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th><strong><em>Set of all ARKs starting</em></strong></th>
+        <th><strong><em>Associated namespace</em></strong></th>
+        <th><strong><em>Example ARK in that namespace</em></strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ark:/</td>
+        <td>All ARKs</td>
+        <td>ark:/99999/fk4gt2m</td>
+      </tr>
+      <tr>
+        <td>ark:/12345/</td>
+        <td>ARKs under the NAAN 12345</td>
+        <td>ark:/12345/p987654</td>
+      </tr>
+      <tr>
+        <td>ark:/12345/x5</td>
+        <td>ARKs under the 12345/x5 <em>shoulder</em></td>
+        <td>ark:/12345/x5wf6789</td>
+      </tr>
+      <tr>
+        <td>ark:/12345/x5wf6789/</td>
+        <td>ARKs under the 12345/x5wf6789 <em>object</em></td>
+        <td>ark:/12345/x5wf6789/c2/s4.pdf</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The above table shows examples of four common namespace/sub-namespace levels.
+The first is for all ARKs and the second is for all ARKs under ark:12345. The
+third is the shoulder concept, described further below, which is the next
+subdivision under the NAAN; note that it has no “/” after it.</p>
+
+<p>The fourth, a complete ARK-as-prefix example, shows that an object ARK is
+itself also a namespace, with an infinite number of “sub-ARKs” that could
+descend from it to name object parts and variants. Creating new namespaces to
+avoid naming conflicts is an ancient practice. For example, a family may refer
+to someone as Sam, the community as Sam Smith, the government as Sam Smith,
+4321 Main Street, Springfield, and history as Sam Smith, 4321 Main Street,
+Springfield, 1888-1997.</p>
+
+<h2 id="ark-shoulders">ARK shoulders</h2>
+
+<p>Shoulders are short, consistent strings that allow you to divide your ARKs
+across autonomous projects or divisions. Even if an organization initially
+only needs ARKs for one project, plans may change. Different internal
+departments may need ARKs for their own particular use cases. If new needs and
+use cases ARKs arise later, setting aside a new shoulder for each new project
+or division makes it easy to ensure that independent assignment streams –
+present, past, or future – won’t conflict with each other, thanks to
+non-overlapping namespaces.</p>
+
+<p>Technically, a <em>shoulder</em> is a sub-namespace under a NAAN. It is the set all
+ARKs starting with a short, fixed extension to the NAAN. For example, in</p>
+
+<div class="language-plaintext bg-secondary-subtle highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   ark:/12345/x5wf6789/c2/s4.pdf
+</code></pre></div></div>
+
+<p>the shoulder, /x5, extends the NAAN, 12345. The short designation, /x5, isn’t
+very unique, so the fully qualified, globally unique designation should be
+used (for example, ark:/12345/x5). There is <a href="/arks.github.io/about/shoulders/">more information about
+implementing shoulders</a>.</p>
+
+<h2 id="ark-shoulder-as-namespace">ARK shoulder as namespace</h2>
+
+<p>In the classic namespace tradition, the shoulder is the set of all possible
+ARKs starting with the shoulder name. Our use of this term is borrowed from
+locksmithing, which understands sets of keys to be defined by fixed, unvarying
+“shoulders” that precede the varying “blades” (shapes that differ among keys
+sharing the same shoulder) that follow it.</p>
+
+<p><img src="https://lh6.googleusercontent.com/4P2TlDWgXCj_wBahPf2UDHXeIbebp_8BTHlDccb0HGedk6wsqKLJCyWWXPmCN_j1zl_S_YjBO94rY7f80fUZNzaVkGy3-Dq28o9bLpD3tjVap0_b1VYFgOofuEOGwEgogvLtOAHY" alt="" class="img-thumbnail img-fluid" loading="lazy" /></p>
+
+<p>Shoulders help organize a NAAN namespace for the long term. Just because a
+namespace contains an infinite number of possible ARKs does not mean that
+finding an unassigned ARK is easy, especially when over time there are – or
+were, or may be – different independent ARK assignment operations under it.
+Just as the ARK community sets aside organizations’ NAAN namespaces, each
+organization is encouraged to set aside shoulder sub-namespaces. If you don’t
+use shoulders from the beginning, even for one simple stream of assignments,
+you risk creating mild but permanent chaos in your NAAN namespace, and you may
+end up requesting an additional NAAN (which is discouraged) for future
+assignment streams.</p>
+
+<p>A shoulder is analogous to a guest room in your house. Imagine a colleague,
+Sally, who takes in a long term lodger, Larry. Although her home is extremely
+spacious (in fact it is infinite), Sally complains that Larry leaves things
+permanently lying around in random spots all over the house: his coat on the
+kitchen chair, glasses on the dining table, book on Sally’s desk, slippers
+next to the sofa, coffee cup on the bathroom sink, etc. By the terms of his
+lodging agreement, Larry’s things, once placed, cannot be moved. But Sally,
+who also needs places for her things and might later take on new lodgers, is
+stuck forever noticing and trying not to disturb Larry’s stuff in parts of the
+house that she uses often.</p>
+
+<p>Understanding Sally’s troubles, you might vow to require any guest of yours to
+agree to place things only in their room (their shoulder). Under such an
+agreement, not only would Sally’s home have been minimally disturbed by
+Larry’s stuff, but also she would be able to take on any number of new lodgers
+(new assigning operations) under similar agreements.</p>
+
+<p>So shoulders allow ARK assignment under a NAAN to be delegated to autonomous
+projects or divisions, just as NAANs do under the overall ARK namespace. Even
+if an organization initially only needs to create ARKs for one project, plans
+may change. If other needs for ARKs arise later, setting aside a new shoulder
+for each new project or division makes it easy to ensure that independent
+assignment streams – present, past, or future – won’t conflict with each
+other, thanks to non-overlapping namespaces. (Shoulders can also ease the
+<a href="https://n2t.net/e/n2t_vision.html">namespace splitting problem</a>.) If you would like to learn more about
+shoulders, please see the brief <a href="https://wiki.lyrasis.org/display/ARKs/ARK+Shoulders+FAQ">ARK Shoulders FAQ</a>.</p>
+
+<h2 id="shared-naans">Shared NAANs</h2>
+
+<p>There are four <em>shared</em> NAANs with special semantics that you might want to
+take advantage of. Normally, long term ARKs and their NAANs should be opaque,
+revealing little about what they’re assigned to, but the semantics in the
+table below are considered so immutable as to not risk their longevity. Each
+shared NAAN has particular connotations that software and people with enough
+training can recognize and benefit from, and this offers some relief from the
+challenge of using opaque identifiers.</p>
+
+<p>Shared NAANs are not owned by any one organization. In order to create ARKs
+without conflict under a shared NAAN requires, as you might imagine, reserving
+a shoulder, and that requires filling out an online <a href="https://n2t.net/e/shoulder_request">form to request a
+shoulder under a shared NAAN</a> (please don’t use this for shoulders under your
+own, non-shared NAAN).</p>
+
+<div class="table-responsive">
+<table class="table table-hover table-striped">
+<thead>
+<tr>
+<th>Shared NAAN <em>meaning</em></th>
+<th>Purpose, meaning, or connotation of ARKs with this NAAN.
+<br />
+(It’s ok for these NAANs to be <em>non-opaque</em> since their meanings are
+immutable.)
+</th>
+<th>Expect to resolve?</th>
+<th>OK for long term reference?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>12345 <em>examples</em></th>
+<td>
+Example ARKs appearing in documentation. They might resolve, but no link
+checker need be concerned if they don’t. They should not be considered viable
+for long term reference.
+</td>
+<td>maybe</td>
+<td>no</td>
+</tr>
+<tr>
+<th>99152 <em>terms</em>
+</th>
+<td>
+ARKs for controlled vocabulary and ontology terms, such as metadata element
+names and pick-list values. They should resolve to term definitions and are
+suitable for long term reference.</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<th>99166 <em>agents</em></th>
+<td>
+ARKs for people, groups, and institutions as “agents” (actors, such as
+creators, contributors, publishers, performers, etc). They should resolve to
+agent definitions and are suitable for long term reference.</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr>
+<th>99999 <em>test ids</em></th>
+<td>
+ARKs for test, development, or experimental purposes, often at scale. They
+might resolve, but no link checker need be concerned if they don’t. They
+should not be considered viable for long term reference.</td>
+<td>maybe</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>The 99999 and 12345 ARKs (“non-real”) are especially useful if you are
+responsible for reviewing broken link reports. Unless you know otherwise,
+errors for ARKs with these NAANs can be ignored. This can save lots of wasted
+effort since, despite providers’ best efforts, such non-real ARKs frequently
+“escape into the wild” for all to see. Recipients (eg, people and link
+checkers) that would normally be concerned with broken links have only to
+recognize these two special NAANs in order to avoid being distracted by them.
+(Note that the non-real semantics remain even if the things don’t exist.)</p>
+
+<h2 id="the-naans-role-in-n2t-ark-resolution">The NAAN’s role in N2T ARK resolution</h2>
+
+<p>NAANs also play a key role in resolution. For example, if the N2T.net resolver
+cannot find an incoming ARK in its database, it looks at the incoming NAAN and
+redirects the ARK to the local resolver registered with the NAAN. Any local
+resolver could be configured to return the favor for incoming ARKs containing
+NAANs that it doesn’t know about, simply by redirecting them to N2T.</p>
+
+<h2 id="how-to-make-changes-to-a-naan">How to make changes to a NAAN</h2>
+
+<p>Because the information in the NAAN registry can play a significant role in
+resolving your ARKs, you want to keep it up to date any time there is a change
+to your local resolver. You can request a change to the registry entry for a
+NAAN related to your organization by filling out the same <a href="https://n2t.net/e/naan_request">online form</a> used
+for requesting a new NAAN. For security purposes requests are processed
+manually. Example reasons for a change may include</p>
+
+<ul>
+  <li>notifying N2T of a change in your organization’s contact person or resolver URL,</li>
+  <li>updating your organization’s name assignment policy (<a href="https://ark.bnf.fr/ark:/12148/bpt6k2102478.policy">sample policy</a>),</li>
+  <li>requesting an additional NAAN, eg, to support a significant new body of
+ARKs or new organizational division, and</li>
+  <li>transitioning your NAAN to another organization that will carry on your
+work and future use of your NAAN.</li>
+</ul>
+
+<p>NAANs are portable. If your organization transitions into or out of a vendor
+relationship, there is no impediment to taking your NAAN with you.</p>
+
 
 
       </div>

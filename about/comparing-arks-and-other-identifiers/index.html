@@ -24,23 +24,24 @@
 
   
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>ARK Alliance | Home of the Archival Resource Key (ARK)</title>
+<title>Comparing ARKs, DOIs and other identifier systems | ARK Alliance</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="ARK Alliance" />
+<meta property="og:title" content="Comparing ARKs, DOIs and other identifier systems" />
 <meta name="author" content="The ARK Alliance" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<meta property="og:description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<link rel="canonical" href="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
-<meta property="og:url" content="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
+<meta name="description" content="This article compares ARKs with other identifier systems like DOIs, Handles, PURLs, and URNs. It highlights reasons to use ARKs, their differences, and the advantages they offer in terms of cost, flexibility, metadata, and more." />
+<meta property="og:description" content="This article compares ARKs with other identifier systems like DOIs, Handles, PURLs, and URNs. It highlights reasons to use ARKs, their differences, and the advantages they offer in terms of cost, flexibility, metadata, and more." />
+<link rel="canonical" href="https://arks-org.github.io/arks.github.io/about/comparing-arks-and-other-identifiers/" />
+<meta property="og:url" content="https://arks-org.github.io/arks.github.io/about/comparing-arks-and-other-identifiers/" />
 <meta property="og:site_name" content="ARK Alliance" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-23T22:28:11+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="ARK Alliance" />
+<meta property="twitter:title" content="Comparing ARKs, DOIs and other identifier systems" />
 <meta name="twitter:site" content="@arks_org" />
 <meta name="twitter:creator" content="@The ARK Alliance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"The ARK Alliance"},"description":"ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship.","headline":"ARK Alliance","url":"https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"The ARK Alliance"},"dateModified":"2021-01-23T22:28:11+00:00","datePublished":"2021-01-23T22:28:11+00:00","description":"This article compares ARKs with other identifier systems like DOIs, Handles, PURLs, and URNs. It highlights reasons to use ARKs, their differences, and the advantages they offer in terms of cost, flexibility, metadata, and more.","headline":"Comparing ARKs, DOIs and other identifier systems","mainEntityOfPage":{"@type":"WebPage","@id":"https://arks-org.github.io/arks.github.io/about/comparing-arks-and-other-identifiers/"},"url":"https://arks-org.github.io/arks.github.io/about/comparing-arks-and-other-identifiers/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -280,28 +281,206 @@
 
     <div class="ark-alliance__content container my-5">
       <h1 class="ark-alliance__content--title">
-        
+        Comparing ARKs, DOIs and other identifier systems
       </h1>
       <div class="ark-alliance__content--body">
-        <p>{
-    “name”: “”,
-    “short_name”: “”,
-    “icons”: [
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-192x192.png?v=2”,
-            “sizes”: “192x192”,
-            “type”: “image/png”
-        },
-        {
-            “src”: “{{ site.baseurl }}/assets/images/share/android-chrome-512x512.png?v=2”,
-            “sizes”: “512x512”,
-            “type”: “image/png”
-        }
-    ],
-    “theme_color”: “#ffffff”,
-    “background_color”: “#ffffff”,
-    “display”: “standalone”
-}</p>
+        
+<h2 id="reasons-to-use-arks-as-compared-to-dois">Reasons to use ARKs as compared to DOIs</h2>
+
+<ul>
+  <li>To keep costs down. While some ARK service providers exist, ARKs can be
+implemented locally with open-source tools.</li>
+  <li>To work with exactly the metadata you want.</li>
+  <li>To be able to create identifiers without metadata.</li>
+  <li>To be able to create an identifier even before your object exists.</li>
+  <li>To have an identifier as soon as you create the first draft of your data.</li>
+  <li>To hold that identifier private while the data and metadata evolve, and
+decide (maybe years) later, to publish or discard it.</li>
+  <li>To retain that identifier upon publication, perhaps then assigning an
+additional identifier, such as a DOI.</li>
+  <li>Because ARKs, built for generic application and not specifically for
+published content, fit naturally with physical objects like samples or
+field stations.</li>
+  <li>Because ARK resolvers can deal with identifiers routinely damaged out in
+the world by text formatting processes that introduce hyphens.</li>
+  <li>Because most ARKs carry a Noid check digit that can be used to detect all
+common transcription errors rather than just some of them.</li>
+  <li>To be able to create shorter identifiers, since mixed-case permits
+<em>denser</em> strings (a larger number of strings of a given length).</li>
+  <li>To be able to change vendor and/or infrastructure without having to
+coordinate database transfers with a central authority.</li>
+  <li>To be able to deal with the <a href="https://n2t.net/e/n2t_vision.html">namespace splitting problem</a> without losing
+control of your identifiers.</li>
+  <li>To link identifiers to different kinds of nuanced <a href="https://doi.org/10.5334/dsj-2017-039">persistence
+commitments</a>.</li>
+  <li>To be able to add queries (eg, ?lang=en) when resolving your identifiers.</li>
+  <li>To use open infrastructure consistent with your organization’s values.</li>
+  <li>To link directly to the objects you value instead of to landing pages.</li>
+  <li>To create one identifier that enables millions (suffix passthrough).</li>
+  <li>To access convenient, full-function metadata via inflections.</li>
+  <li>To integrate easily with <a href="https://iiif.io/technical-details">IIIF</a> APIs using ARK qualifiers.</li>
+</ul>
+
+<h2 id="what-ark-doi-handle-purl-and-urn-have-in-common">What ARK, DOI, Handle, PURL, and URN have in common</h2>
+
+<p>These are the major persistent identifier types (or schemes).</p>
+
+<ul>
+  <li>All have been in existence since 2001 or before.</li>
+  <li>All are found in places like the Data Citation Index ℠, Wikipedia, and
+<a href="https://orcid.org/">ORCID.org</a> profiles.</li>
+  <li>All give access to almost any kind of thing, whether digital, physical,
+abstract, person, group, etc.</li>
+</ul>
+
+<p>They also have very similar structure, as seen in the examples below,
+consisting of four parts:</p>
+
+<div class="language-plaintext bg-secondary-subtle highlighter-rouge"><div class="highlight"><pre class="highlight"><code> https://n2t.net/ark:/99999/12345
+   https://doi.org/10.99999/12345
+https://handle.net/10.99999/12345
+     https://purl.org/99999/12345
+https://&lt;various&gt;/urn:99999:12345
+</code></pre></div></div>
+
+<ol>
+  <li>the protocol (<code class="language-plaintext highlighter-rouge">https://</code>) plus a hostname,</li>
+  <li>just for ARK and URN, there’s also a label (“ark:” or “urn:”),</li>
+  <li>the name assigning authority (<code class="language-plaintext highlighter-rouge">99999</code>, <code class="language-plaintext highlighter-rouge">10.99999</code>, or <code class="language-plaintext highlighter-rouge">99999</code>), which is
+the organization or group that created a particular identifier,</li>
+  <li>and finally, the <em>name</em>, or local identifier, that it assigned (<code class="language-plaintext highlighter-rouge">12345</code>).</li>
+</ol>
+
+<p>As noted earlier, to be persistent, all types of identifiers require
+persistent maintenance as you change or migrate your systems, and they are all
+subject to some of the same risks:</p>
+
+<ul>
+  <li>They all fail to stop the major causes of broken links: loss of funding,
+natural disaster, social upheaval, war, deliberate removal, human error,
+and provider neglect.</li>
+  <li>They all require you, the end provider, to update forwarding tables as
+URLs change.</li>
+  <li>They all identify content that is subject to change or removal on future
+visits.</li>
+  <li>They all have identifiers that break regularly and in large numbers – many
+thousands and more.</li>
+  <li>They all rely on ordinary redirection built in to web servers since 1994
+and provided for free by hundreds of URL shortening services.</li>
+</ul>
+
+<p>Given how little the schemes do for you, when choosing one you’ll likely want
+to consider factors such as cost, risk, and openness.</p>
+
+<h2 id="how-arks-differ-from-identifiers-like-dois-handles-purls-and-urns">How ARKs differ from identifiers like DOIs, Handles, PURLs, and URNs</h2>
+
+<p>ARKs are the only mainstream, non-siloed, non-paywalled identifiers that you
+can register to use in about 48 hours. DOIs, Handles, and PURLs require that
+resolution and other services come from their respective centralized systems
+(silos).</p>
+
+<p>That’s not to say that persistence is free. Making any identifier persistent
+burdens you, the provider, with the costs of content management, hosting,
+monitoring, and forwarding. You can do those things yourself or with help from
+a vendor. But with ARKs, just as with URLs, you will not be charged separately
+for your identifiers and you will not be locked in to a special-purpose
+resolution silo that also locks out other identifiers.</p>
+
+<p>ARKs are unusual in being decentralized. While one <em>can</em> get resolution
+services from a global ARK resolver called <a href="https://n2t.net/">n2t.net</a>, over 90% of the ARKs in
+the world are published without using <a href="https://n2t.net">n2t.net</a> in the URL hostname. More
+than 650 registered ARK organizations across the world have, between them,
+created an estimated 8.2 billion ARKs, and, as with URLs, no one has ever paid
+an identifier fee to create them. Of course <em>maintaining</em> them isn’t free. It
+is never without cost to keep content access persistent in the long term,
+regardless of identifier type.</p>
+
+<h4 id="more-differences-between-arks-dois-handles-purls-and-urns">More differences between ARKs, DOIs, Handles, PURLs, and URNs</h4>
+
+<ul>
+  <li>Landing pages: Crossref and DataCite DOIs link to publisher landing pages
+constructed around but <em>not directly to</em> objects you care about, but ARKs
+can freely link <em>directly to</em> objects you care about, which is machine-
+and human-friendly since it does not require an extra human navigation
+step for common tasks such as
+    <ul>
+      <li>opening an article’s PDF file for reading,</li>
+      <li>referencing an image file meant to be incorporated automatically
+inline into a document, and</li>
+      <li>citing a spreadsheet to be used for direct data analysis by software.</li>
+    </ul>
+  </li>
+  <li>DOIs, Handles, etc. do not support ARK-style inflections.</li>
+  <li>that permit access to metadata regardless of whether an identifier points
+to an object or its landing page.</li>
+  <li>Unlike DOIs and Handles, ARKs don’t have metadata requirements. ARKs that
+haven’t been released into the world are easy to delete.</li>
+  <li>All things eventually pass, including hostnames and the web itself and the
+“https://” protocol. When that first part of the identifier ceases to have
+meaning, only ARKs and URNs will include the label (eg, “ark:”) indicating
+the type of identifier that remains.</li>
+  <li>For DOIs, Handles, and PURLs, you are required to use their respective
+resolvers. ARKs and URNs, permit you to use your own resolver.</li>
+  <li>To create DOIs and Handles, you are required to pay a membership fee and,
+for DOIs, there are per-DOI charges passed on in various ways by
+allocating agencies. There are no fees for ARKs, PURLs, and URNs.</li>
+  <li>To create Handles, you are required to install and maintain a local Handle
+server, which gives you another system to monitor, patch, and
+troubleshoot.</li>
+  <li>Although you can use a local or vendor resolver for your ARKs and URNs,
+ARKs can be resolved via the global <a href="https://n2t.net/">n2t.net</a> resolver.</li>
+  <li>The envisioned URN resolution infrastructure was never built, so URNs are
+currently resolved as URLs, and there is no designated global URN-as-URL
+resolver. In order to register to create URNs, you must <a href="https://tools.ietf.org/html/rfc8141#section-6">apply for a URN
+namespace</a>.</li>
+  <li>ARKs have some unique features that support early object development: ARKs
+can be deleted, can be born with no metadata, and can exist with any
+metadata you care to store.</li>
+</ul>
+
+<h3 id="using-multiple-identifier-systems">Using multiple identifier systems</h3>
+
+<p>You may choose to use two identifier systems for some resources, although it
+can become confusing when it happens often. Many people start by assigning
+ARKs to each thing they create in order to have a stable reference right from
+the beginning, even before they know whether they want to publish it, let
+alone keep it.</p>
+
+<p>The object and its metadata develop together, and for the subset of things
+that you end up wanting to publish in places that require DOIs, you can assign
+DOIs at publication time. If your ARK is stable and has basic metadata, you’re
+already doing everything you need to support a proper DOI. This is a way in
+which ARKs support early object development.</p>
+
+<p>To support two identifiers efficiently, it is recommended that you create the
+DOI such that it redirects to the original ARK. This not only eliminates the
+need ever to update the DOI redirection, but it also keeps the ARK persistent
+for anyone who previously recorded or bookmarked it.</p>
+
+<h3 id="when-to-use-arks-compared-to-dois-handles-purls-or-urns">When to use ARKs compared to DOIs, Handles, PURLs, or URNs</h3>
+
+<p>Nothing inherent in ARKs, DOIs, Handles, PURLs, or URNs makes them more or
+less fit for any particular field, domain, or sector. With an identifier
+resolver and administrative management service, they all provide the core
+service of resolution.</p>
+
+<p>Generalizations about identifier types sometimes apply when resolution and
+management for that type is locked into one particular vendor or provider. For
+example, many PURL and Handle features and restrictions are well-defined by
+their respective administration silos, as are those of DOIs, which are built
+on top of Handles. But DOIs have metadata practices that are diverse and
+evolving across different DOI registration agencies.</p>
+
+<p>The concrete differences that we experience, such as <em>metadata</em>, landing
+pages, and tool integration (eg, publishing tools), are not properties of
+identifier schemes per se, but properties of resolution, management, and
+citation services that various providers extend to or withhold from different
+identifier types. Those services are shaped in turn by communities of practice
+and by markets. Basic services are founded on a reliable database storing each
+identifier along with metadata elements (creator, title, date, redirection
+URL, etc) that describe the identified object. Extra services include link
+checking, duplicate detection, report generation, and searching.</p>
+
 
 
       </div>
