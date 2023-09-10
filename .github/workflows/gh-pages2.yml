@@ -17,8 +17,8 @@ jobs:
       - name: Build
         #uses: actions/jekyll-build-pages@v1
         uses: jerryjvl/jekyll-build-action@v1
-        env:
-          PAGES_REPO_NWO: datadavev/arks.github.io
+        # env:
+        #  PAGES_REPO_NWO: datadavev/arks.github.io
       #- name: Publish documentation
       #  uses: peaceiris/actions-gh-pages@v3
       #  with:
