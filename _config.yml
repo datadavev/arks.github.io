@@ -60,7 +60,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-relative-links
-  - jekyll-github-metadata
+  #- jekyll-github-metadata
   - jekyll-include-cache
 
 ######################
