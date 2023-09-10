@@ -12,12 +12,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3        
-      #- name: Setup Pages
-      #  uses: actions/configure-pages@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
       - name: Build
         uses: actions/jekyll-build-pages@v1
-      - name: Publish documentation
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+      #- name: Publish documentation
+      #  uses: peaceiris/actions-gh-pages@v3
+      #  with:
+      #    github_token: ${{ secrets.GITHUB_TOKEN }}
+      #    publish_dir: ./_site
+      - name: Push to build branch
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: build # The branch name where you want to push the assets
+          FOLDER: _site # The directory where your assets are generated
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
+          MESSAGE: "Build: ({sha}) pages" # The commit message
+        
