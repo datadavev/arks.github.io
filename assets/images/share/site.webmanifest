@@ -31,8 +31,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
 <meta property="og:description" content="ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship." />
-<link rel="canonical" href="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
-<meta property="og:url" content="https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest" />
+<link rel="canonical" href="https://datadavev.github.io/arks.github.io/assets/images/share/site.webmanifest" />
+<meta property="og:url" content="https://datadavev.github.io/arks.github.io/assets/images/share/site.webmanifest" />
 <meta property="og:site_name" content="ARK Alliance" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
@@ -40,11 +40,11 @@
 <meta name="twitter:site" content="@arks_org" />
 <meta name="twitter:creator" content="@The ARK Alliance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"The ARK Alliance"},"description":"ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship.","headline":"ARK Alliance","url":"https://arks-org.github.io/arks.github.io/assets/images/share/site.webmanifest"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"The ARK Alliance"},"description":"ARKs are reliable, persistent identifiers for information objects, functioning as stable web addresses that avoid 404 errors. Join the ARK Alliance, a global community upholding ARK infrastructure for research and scholarship.","headline":"ARK Alliance","url":"https://datadavev.github.io/arks.github.io/assets/images/share/site.webmanifest"}</script>
 <!-- End Jekyll SEO tag -->
 
   
-  <link type="application/atom+xml" rel="alternate" href="https://arks-org.github.io/arks.github.io/feed/index.xml" title="ARK Alliance" />
+  <link type="application/atom+xml" rel="alternate" href="https://datadavev.github.io/arks.github.io/feed/index.xml" title="ARK Alliance" />
   	<link rel="apple-touch-icon" sizes="180x180" href="/arks.github.io/assets/images/share/apple-touch-icon.png?v=1.2">
 	<link rel="manifest" href="/arks.github.io/assets/images/share/site.webmanifest?v=1.2">
 	<link rel="icon" sizes=48x48 href="/arks.github.io/assets/images/share//favicon.ico?v=1.2">
