@@ -19,17 +19,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Build
         uses: actions/jekyll-build-pages@v1
-      - name: GIT commit build artifacts
-        run: |
-          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
-          git config --global user.email "username@users.noreply.github.com"
-          #git branch -d gh-pages
-          git checkout -b gh-pages
-          git add -f _site
-          git commit -a -m "Rebuild site"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Publish documentation
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-pages
-          github_token: ${{ env.TOKEN }}          
-
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
