@@ -19,8 +19,8 @@ jobs:
         #uses: jerryjvl/jekyll-build-action@v1
         # env:
         #  PAGES_REPO_NWO: datadavev/arks.github.io
-      #- name: Publish documentation
-      #  uses: peaceiris/actions-gh-pages@v3
+      - name: Publish documentation
+        uses: sctions/upload-pages-artifact@v1
       #  with:
       #    github_token: ${{ secrets.GITHUB_TOKEN }}
       #    publish_dir: ./_site
